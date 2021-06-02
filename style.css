@@ -21,6 +21,7 @@ header .header--nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  height: 10vh;
 }
 
 header .header--nav .header--nav__logo {
@@ -33,7 +34,31 @@ header .header--nav .header--nav__logo .header--nav__logo--title {
   color: #141414;
 }
 
-header .header--nav .header--nav__links a {
+header .header--nav .header--nav__links {
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .header--nav .header--nav__links li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 10vh;
+}
+
+header .header--nav .header--nav__links li:hover {
+  background-color: #e53b6a;
+}
+
+header .header--nav .header--nav__links li a {
   text-decoration: none;
   padding: 0 15px;
   font-family: 'Krub', sans-serif;
@@ -90,7 +115,7 @@ header .header--content .header--content__desc .header--content__desc--container
 
 header .header--content .header--content__desc .header--content__desc--container .header--content__desc--subtitle {
   font-family: 'Krub', sans-serif;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 header .header--content .header--content__desc .header--content__button--container {
@@ -102,18 +127,16 @@ header .header--content .header--content__desc .header--content__button--contain
       -ms-flex-direction: column;
           flex-direction: column;
   position: relative;
+  top: -50px;
 }
 
 header .header--content .header--content__desc .header--content__button--container button {
+  font-family: 'Krub', sans-serif;
   background: none;
   border: none;
   cursor: pointer;
-  line-height: 1.5;
-  font: 700 1em "Roboto Slab", sans-serif;
-  padding: 1em 2em;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
-  width: 300px;
 }
 
 header .header--content .header--content__desc .header--content__button--container button:focus {
@@ -121,15 +144,18 @@ header .header--content .header--content__desc .header--content__button--contain
 }
 
 header .header--content .header--content__desc .header--content__button--container .draw-border {
-  -webkit-box-shadow: inset 0 0 0 4px #580000;
-          box-shadow: inset 0 0 0 4px #580000;
-  color: #580000;
-  background-color: rgba(88, 0, 0, 0.2);
+  -webkit-box-shadow: inset 0 0 0 4px #5ea9dd;
+          box-shadow: inset 0 0 0 4px #5ea9dd;
+  color: #141414;
+  font-weight: bolder;
+  font-size: 1.2em;
+  background-color: rgba(0, 4, 255, 0.034);
   -webkit-transition: color 0.25s 0.0833333333s;
   transition: color 0.25s 0.0833333333s;
   position: relative;
-  margin: 0 auto;
-  max-width: 350px;
+  margin: 5px auto;
+  max-width: 69%;
+  height: 70px;
   width: 88%;
 }
 
@@ -158,12 +184,12 @@ header .header--content .header--content__desc .header--content__button--contain
 }
 
 header .header--content .header--content__desc .header--content__button--container .draw-border:hover {
-  color: #f8f8ff;
+  color: #e53b6a;
 }
 
 header .header--content .header--content__desc .header--content__button--container .draw-border:hover::before,
 header .header--content .header--content__desc .header--content__button--container .draw-border:hover::after {
-  border-color: #f8f8ff;
+  border-color: #e53b6a;
   -webkit-transition: border-color 0s, width 0.25s, height 0.25s;
   transition: border-color 0s, width 0.25s, height 0.25s;
   width: 100%;

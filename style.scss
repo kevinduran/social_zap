@@ -11,7 +11,7 @@ $font-color:rgb(20, 20, 20);
 header{
     height: 100vh;
     margin: 0 25px;
-    .header--nav{
+    .header--nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -27,29 +27,30 @@ header{
         .header--nav__links {
             height: 10vh;
             display: flex;
-            li{
+            align-items: center;
+            a {
                 display: flex;
-                justify-content: center;
-                align-items: center;
-                height: 10vh;
-                &:hover{
-                    background-color: $base-color;
-                }
-                a{
-                    text-decoration: none;
-                    padding: 0 15px;
-                    font-family: 'Krub', sans-serif;
-                    color: $font-color;
-                    font-size: 1.2em;
-                    text-transform: uppercase;
-                    font-weight: bolder;
-                    }
+                align-items: center;               
+                height: 10vh !important;
+                text-decoration: none;
+                padding: 0 15px;
+                font-family: 'Krub', sans-serif;
+                font-weight: bolder;
+                color: $font-color;
+                font-size: 1.2em;
+                text-transform: uppercase;
+            }
+            a:hover {
+                background-color: $base-color;
             }
         }
-
     }
+    
     .header--content{
         display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: -1;
         .header--content__img {
             flex: 2;
             display: flex;
@@ -62,7 +63,8 @@ header{
         .header--content__desc {
             flex: 2;
             padding: 15px;
-            margin-top: -55px;
+            position: relative;
+            
             .header--content__desc--title{
                 text-align: center;
                 font-family: 'Audiowide', cursive;    

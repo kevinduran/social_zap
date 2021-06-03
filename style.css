@@ -11,7 +11,9 @@ body {
 }
 
 header {
-  height: 100vh;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   margin: 0 25px;
 }
 
@@ -45,13 +47,14 @@ header .header--nav .header--nav__logo:hover .header--nav__logo--title {
 }
 
 header .header--nav .header--nav__links {
-  height: 10vh;
+  height: 10vh !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  z-index: 1;
 }
 
 header .header--nav .header--nav__links a {
@@ -106,6 +109,7 @@ header .header--content .header--content__img img {
   display: flex;
   width: 100%;
   margin: 0 auto;
+  max-width: 666px;
 }
 
 header .header--content .header--content__desc {
@@ -114,6 +118,7 @@ header .header--content .header--content__desc {
           flex: 2;
   padding: 15px;
   position: relative;
+  top: -55px;
 }
 
 header .header--content .header--content__desc .header--content__desc--title {
@@ -222,5 +227,121 @@ header .header--content .header--content__desc .header--content__button--contain
 header .header--content .header--content__desc .header--content__button--container .draw-border:hover::after {
   -webkit-transition-delay: 0s, 0.25s, 0s;
           transition-delay: 0s, 0.25s, 0s;
+}
+
+.how {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Krub', sans-serif;
+  margin-top: 69px;
+}
+
+.how .how--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.how .how--container .how--conatiner__unit {
+  position: relative;
+  padding: 45px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border-bottom: 1px solid #141414;
+}
+
+.how .how--container .how--conatiner__unit .how--sub__unit {
+  height: 400px;
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  padding-bottom: 15px;
+}
+
+.how .how--container .how--conatiner__unit .how--sub__unit img {
+  max-width: 100%;
+  height: 100%;
+}
+
+.how .how--container .how--conatiner__unit .how--sub__2 {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 5px solid #e53b6a;
+  border-radius: 5%;
+}
+
+.how .how--container .how--conatiner__unit .num--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  bottom: -50px;
+}
+
+.how .how--container .how--conatiner__unit .num--container .num {
+  font-size: 18em;
+  margin: 0;
+  position: relative;
+  bottom: -50px;
+}
+
+.how .how--container .how--conatiner__unit .right {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.how .how--container .how--conatiner__unit .desc--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.how .how--container .how--conatiner__unit .desc--container .desc {
+  margin: 0;
+  position: relative;
+  font-size: 1.6em;
+  padding: 0 50px;
+  line-height: 1.7em;
+}
+
+.how .how--container .how--conatiner__unit .desc--container .desc--title {
+  font-size: 2.5em;
+  text-transform: uppercase;
+  font-weight: bolder;
 }
 /*# sourceMappingURL=style.css.map */

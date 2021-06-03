@@ -101,6 +101,7 @@ header .header--content .header--content__img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  overflow: hidden;
 }
 
 header .header--content .header--content__img img {
@@ -110,6 +111,7 @@ header .header--content .header--content__img img {
   width: 100%;
   margin: 0 auto;
   max-width: 666px;
+  opacity: 0;
 }
 
 header .header--content .header--content__desc {
@@ -119,6 +121,7 @@ header .header--content .header--content__desc {
   padding: 15px;
   position: relative;
   top: -55px;
+  opacity: 0;
 }
 
 header .header--content .header--content__desc .header--content__desc--title {
@@ -315,6 +318,13 @@ header .header--content .header--content__desc .header--content__button--contain
 .how .how--container .how--conatiner__unit .num--container .num {
   font-size: 18em;
   margin: 0;
+  opacity: 0;
+  position: relative;
+  bottom: -50px;
+}
+
+.how .how--container .how--conatiner__unit .num--container .num2, .how .how--container .how--conatiner__unit .num--container .num3, .how .how--container .how--conatiner__unit .num--container .num4, .how .how--container .how--conatiner__unit .num--container .num5, .how .how--container .how--conatiner__unit .num--container .num6 {
+  opacity: 0;
   position: relative;
   bottom: -50px;
 }
@@ -431,22 +441,5 @@ header .header--content .header--content__desc .header--content__button--contain
   font-size: 2.5em;
   text-transform: uppercase;
   font-weight: bolder;
-}
-
-.video-wrapper {
-  position: relative;
-  padding-bottom: 45%;
-  height: 0;
-  width: 80%;
-  margin: 0 auto;
-}
-
-.video-wrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  volume: silent;
 }
 /*# sourceMappingURL=style.css.map */

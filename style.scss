@@ -188,6 +188,7 @@ header{
             display: flex;
             justify-content: space-evenly;
             border-bottom: 1px solid $font-color;
+            margin: 0 20px;
 
             .how--sub__unit{
                 height: 400px;
@@ -198,6 +199,14 @@ header{
                     height: 100%;
                     
                 }
+            }
+            .move--right{
+                position: relative;
+                right: -50px;
+            }
+            .move--left{
+                position: relative;
+                left: -50px;
             }
             .how--sub__2{
                 align-items: center;

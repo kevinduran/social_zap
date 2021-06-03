@@ -2,7 +2,7 @@ $base-color: #e53b6a;
 $secondary-color:#5ea9dd;
 $font-color:rgb(20, 20, 20);
 body{
-    background-color: rgba(0, 208, 255, 0.09);
+    background-color: #2196f336;
 }
 .bold{
     color: $base-color;
@@ -145,6 +145,7 @@ header{
 
                 .draw-border:hover {
                 color: $base-color;
+                background-color: #e53b6b36;
                 }
 
                 .draw-border:hover::before,

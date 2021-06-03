@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(0, 208, 255, 0.09);
+  background-color: #2196f336;
 }
 
 .bold {
@@ -202,6 +202,7 @@ header .header--content .header--content__desc .header--content__button--contain
 
 header .header--content .header--content__desc .header--content__button--container .draw-border:hover {
   color: #e53b6a;
+  background-color: #e53b6b36;
 }
 
 header .header--content .header--content__desc .header--content__button--container .draw-border:hover::before,

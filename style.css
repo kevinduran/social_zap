@@ -72,6 +72,9 @@ header .header--nav .header--nav__links a {
   color: #141414;
   font-size: 1.2em;
   text-transform: uppercase;
+  opacity: 0;
+  position: relative;
+  top: 30px;
 }
 
 header .header--nav .header--nav__links a:hover {
@@ -312,7 +315,7 @@ header .header--content .header--content__desc .header--content__button--contain
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  bottom: -50px;
+  overflow: hidden;
 }
 
 .how .how--container .how--conatiner__unit .num--container .num {
@@ -320,7 +323,7 @@ header .header--content .header--content__desc .header--content__button--contain
   margin: 0;
   opacity: 0;
   position: relative;
-  bottom: -50px;
+  top: 300px;
 }
 
 .how .how--container .how--conatiner__unit .num--container .num2, .how .how--container .how--conatiner__unit .num--container .num3, .how .how--container .how--conatiner__unit .num--container .num4, .how .how--container .how--conatiner__unit .num--container .num5, .how .how--container .how--conatiner__unit .num--container .num6 {
@@ -441,5 +444,17 @@ header .header--content .header--content__desc .header--content__button--contain
   font-size: 2.5em;
   text-transform: uppercase;
   font-weight: bolder;
+  position: relative;
+  top: 30px;
+}
+
+.how .how--container .how--conatiner__unit .desc--container .abra {
+  overflow: hidden;
+  height: 80px;
+}
+
+.how .how--container .how--conatiner__unit .desc--container .kadabra {
+  overflow: hidden;
+  height: 250px;
 }
 /*# sourceMappingURL=style.css.map */

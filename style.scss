@@ -47,12 +47,16 @@ header{
                 color: $font-color;
                 font-size: 1.2em;
                 text-transform: uppercase;
+                opacity: 0;
+                position: relative;
+                top: 30px;
             }
             a:hover {
                 background-color: $base-color;
                 color: white;
                 transition: 0.3s ease all;
             }
+           
         }
     }
     
@@ -222,13 +226,14 @@ header{
                 display: flex;
                 position: relative;
                 align-items: flex-end;
-                bottom: -50px;   
+                overflow: hidden; 
                 .num{
                     font-size: 18em;
                     margin: 0;
                     opacity:0;
                     position: relative;
-                    bottom: -50px;
+                    top: 300px;
+
                 }
                 .num2, .num3, .num4, .num5, .num6{
                     opacity:0;
@@ -240,6 +245,7 @@ header{
             .right{
                 justify-content:flex-end;
             }
+            
             .desc--container{
                 display: flex;
                 flex-direction: column;
@@ -329,6 +335,16 @@ header{
                     font-size: 2.5em;
                     text-transform: uppercase;
                     font-weight:bolder;
+                    position: relative;
+                    top: 30px;
+                }
+                .abra{
+                    overflow: hidden;
+                    height:80px;
+                }
+                .kadabra{
+                    overflow: hidden;
+                    height:250px;
                 }
             }
         }

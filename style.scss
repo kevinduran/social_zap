@@ -3,6 +3,7 @@ $secondary-color:#5ea9dd;
 $font-color:rgb(20, 20, 20);
 body{
     background-color: #ebe8e83d;
+    margin: 25px;
 }
 .bold{
     color: $base-color;
@@ -250,7 +251,7 @@ header{
                 display: flex;
                 flex-direction: column;
                 position: relative;
-                align-items: center;
+               // align-items: center;
                 justify-content: center;
                 button {
                     font-family: 'Krub', sans-serif;

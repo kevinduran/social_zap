@@ -1,12 +1,12 @@
 gsap.to('.header--content__img--img',{
     opacity:1, 
     duration:1,
-    delay:0.2,
+    delay:0.7,
      y:-50
 });
 gsap.to('.header--content__desc',{
     opacity:1, 
-    delay:0.5,
+    delay:0.9,
     duration:1,
      y:-50
 });
@@ -58,20 +58,20 @@ gsap.to('.num6',{
 });
 gsap.to('.one--link',{
     opacity:1, 
-    delay:0.5,
-    duration:1,
+    delay:0.1,
+    duration:0.6,
      y:-30
 });
 gsap.to('.two--link',{
     opacity:1, 
-    delay:0.7,
-    duration:1,
+    delay:0.3,
+    duration:0.6,
      y:-30
 });
 gsap.to('.three--link',{
     opacity:1, 
-    delay:0.9,
-    duration:1,
+    delay:0.5,
+    duration:0.6,
      y:-30
 });
 
@@ -97,3 +97,30 @@ gsap.to('.ds--3',{
     scrollTrigger: '.ds--3',
      y:-51
 });
+
+
+gsap.to('.up1',{
+    opacity:1, 
+    delay:0.5,
+    duration:1,
+    scrollTrigger: '.up1',
+    y:-50
+     
+});
+gsap.to('.up2',{
+    opacity:1, 
+    delay:0.5,
+    duration:1,
+    scrollTrigger: '.up2',
+    y:-50
+    
+});
+gsap.to('.up3',{
+    opacity:1, 
+    delay:0.5,
+    duration:1,
+    scrollTrigger: '.up3',
+    y:-50
+    
+});
+

@@ -457,4 +457,9 @@ header .header--content .header--content__desc .header--content__button--contain
   overflow: hidden;
   height: 250px;
 }
+
+.how .how--container .how--conatiner__unit .desc--container .up1, .how .how--container .how--conatiner__unit .desc--container .up2, .how .how--container .how--conatiner__unit .desc--container .up3 {
+  top: 50px;
+  opacity: 0;
+}
 /*# sourceMappingURL=style.css.map */

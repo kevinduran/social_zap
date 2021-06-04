@@ -346,6 +346,10 @@ header{
                     overflow: hidden;
                     height:250px;
                 }
+                .up1, .up2, .up3{
+                    top: 50px; 
+                    opacity: 0;
+                }
             }
         }
     }

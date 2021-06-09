@@ -1,6 +1,8 @@
 $base-color: #e53b6a;
 $secondary-color:#5ea9dd;
 $font-color:rgb(20, 20, 20);
+$main-font:'Krub', sans-serif;
+
 body{
     background-color: #ebe8e83d;
     margin: 25px;
@@ -357,11 +359,15 @@ header{
 }
 
 .video{
+    margin-top: 10em;
+    padding: 25px;
     .video__container{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         width: 100%;
+        font-family: $main-font;
+
         .video__container--video{
             display: flex;
             flex-direction: column;
@@ -375,74 +381,94 @@ header{
             flex-direction: column;
             flex-basis: 100%;
             flex: 2;
-            button {
-                font-family: 'Krub', sans-serif;
-                background: none;
-                border: none;
-                cursor: pointer;
-                letter-spacing: 0.2rem;
-                text-transform: uppercase;
+            text-align: right;
+            margin: 0 auto;
+            justify-content: center;
+            align-items: center;
+            .video__container--text--second{
+                height: 69%;
+                width: 69%;
+                h2{
+                    margin: 0 auto;
+                    font-size: 2.6em;
+                    padding-bottom: 25px;
+                }
+                p{
+                    margin: 0 auto;
+                    font-size: 1.4em;
+                    line-height: 2em;
+    
+                }
+                button {
+                    font-family: 'Krub', sans-serif;
+                    background: none;
+                    border: none;
+                    cursor: pointer;
+                    letter-spacing: 0.2rem;
+                    text-transform: uppercase;
+                }
+                button:focus {
+                    outline: none;
+                } 
+                .draw-border {
+                    box-shadow: inset 0 0 0 4px $secondary-color;
+                    color: $font-color;
+                    font-weight: bolder;
+                    font-size: 1.2em;
+                    background-color: rgba(0, 4, 255, 0.034);
+                    transition: color 0.25s 0.0833333333s;
+                    position: relative;
+                    margin: 15px auto;
+                    max-width: 69%;
+                    height: 55px;
+                    width: 75%;
+                    
+                }  
+                .draw-border::before,
+                .draw-border::after {
+                border: 0 solid transparent;
+                box-sizing: border-box;
+                content: "";
+                pointer-events: none;
+                position: absolute;
+                width: 0;
+                height: 0;
+                bottom: 0;
+                right: 0;
+                }
+    
+                .draw-border::before {
+                border-bottom-width: 5px;
+                border-left-width: 5px;
+                }
+    
+                .draw-border::after {
+                border-top-width: 5px;
+                border-right-width: 5px;
+                }
+    
+                .draw-border:hover {
+                color: $base-color;
+                background-color: #e53b6b36;
+                }
+    
+                .draw-border:hover::before,
+                .draw-border:hover::after {
+                border-color: $base-color;
+                transition: border-color 0s, width 0.25s, height 0.25s;
+                width: 100%;
+                height: 100%;
+                }
+    
+                .draw-border:hover::before {
+                transition-delay: 0s, 0s, 0.25s;
+                }
+    
+                .draw-border:hover::after {
+                transition-delay: 0s, 0.25s, 0s;
+                }
             }
-            button:focus {
-                outline: none;
-            } 
-            .draw-border {
-                box-shadow: inset 0 0 0 4px $secondary-color;
-                color: $font-color;
-                font-weight: bolder;
-                font-size: 1.2em;
-                background-color: rgba(0, 4, 255, 0.034);
-                transition: color 0.25s 0.0833333333s;
-                position: relative;
-                margin: 15px auto;
-                max-width: 69%;
-                height: 55px;
-                width: 75%;
-                
-            }  
-            .draw-border::before,
-            .draw-border::after {
-            border: 0 solid transparent;
-            box-sizing: border-box;
-            content: "";
-            pointer-events: none;
-            position: absolute;
-            width: 0;
-            height: 0;
-            bottom: 0;
-            right: 0;
-            }
-
-            .draw-border::before {
-            border-bottom-width: 5px;
-            border-left-width: 5px;
-            }
-
-            .draw-border::after {
-            border-top-width: 5px;
-            border-right-width: 5px;
-            }
-
-            .draw-border:hover {
-            color: $base-color;
-            background-color: #e53b6b36;
-            }
-
-            .draw-border:hover::before,
-            .draw-border:hover::after {
-            border-color: $base-color;
-            transition: border-color 0s, width 0.25s, height 0.25s;
-            width: 100%;
-            height: 100%;
-            }
-
-            .draw-border:hover::before {
-            transition-delay: 0s, 0s, 0.25s;
-            }
-
-            .draw-border:hover::after {
-            transition-delay: 0s, 0.25s, 0s;
-            }
+            
           
         }
     }

@@ -248,7 +248,20 @@ header{
             .right{
                 justify-content:flex-end;
             }
-            
+            .desc--container--left{
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                text-align: right;
+                .desc{
+                    width: 100% !important;
+                }
+                
+                p{
+                    text-align: right;
+                    width: 100%;
+                }
+            }
             .desc--container{
                 display: flex;
                 flex-direction: column;

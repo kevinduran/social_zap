@@ -339,6 +339,27 @@ header .header--content .header--content__desc .header--content__button--contain
           justify-content: flex-end;
 }
 
+.how .how--container .how--conatiner__unit .desc--container--left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  text-align: right;
+}
+
+.how .how--container .how--conatiner__unit .desc--container--left .desc {
+  width: 100% !important;
+}
+
+.how .how--container .how--conatiner__unit .desc--container--left p {
+  text-align: right;
+  width: 100%;
+}
+
 .how .how--container .how--conatiner__unit .desc--container {
   display: -webkit-box;
   display: -ms-flexbox;

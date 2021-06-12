@@ -851,6 +851,15 @@ header .header--content .header--content__desc .header--content__button--contain
   height: 55px;
   width: 88%;
   margin: 15px 0;
+  font-size: 1.1em;
+  font-family: "Krub", sans-serif;
+}
+
+.form .form__container .column .form__container--form--second input:focus {
+  outline: none !important;
+  border: 3px solid #e53b6a;
+  -webkit-box-shadow: 0 0 10px #719ECE;
+          box-shadow: 0 0 10px #719ECE;
 }
 
 .form .form__container .column .form__container--form--second button {

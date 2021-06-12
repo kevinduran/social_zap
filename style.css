@@ -782,7 +782,10 @@ header .header--content .header--content__desc .header--content__button--contain
 }
 
 .form {
-  background-color: #2d65ac;
+  font-family: "Krub", sans-serif;
+  background-color: #99c5e8a6;
+  margin: 25px;
+  padding: 15px;
 }
 
 .form .form__container {
@@ -818,6 +821,20 @@ header .header--content .header--content__desc .header--content__button--contain
   margin: 0 auto;
 }
 
+.form .form__container .column .column--second h2 {
+  margin: 0 auto;
+  font-size: 2.6em;
+  padding-bottom: 25px;
+  text-align: right;
+}
+
+.form .form__container .column .column--second p {
+  margin: 0 auto;
+  font-size: 1.4em;
+  line-height: 2em;
+  text-align: right;
+}
+
 .form .form__container .column .form__container--form--second {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -826,11 +843,18 @@ header .header--content .header--content__desc .header--content__button--contain
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  width: 69%;
+}
+
+.form .form__container .column .form__container--form--second input {
+  border: none;
+  height: 55px;
+  width: 88%;
+  margin: 15px 0;
 }
 
 .form .form__container .column .form__container--form--second button {
   font-family: 'Krub', sans-serif;
-  background: none;
   border: none;
   cursor: pointer;
   letter-spacing: 0.2rem;
@@ -851,8 +875,8 @@ header .header--content .header--content__desc .header--content__button--contain
   -webkit-transition: color 0.25s 0.0833333333s;
   transition: color 0.25s 0.0833333333s;
   position: relative;
-  margin: 15px auto;
-  max-width: 69%;
+  margin: 15px 0;
+  max-width: 44%;
   height: 55px;
   width: 75%;
 }

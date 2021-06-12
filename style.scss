@@ -596,7 +596,10 @@ header{
 }
 
 .form{
-    background-color: #2d65ac;
+    font-family: $main-font;
+    background-color: #99c5e8a6;
+    margin:25px;
+    padding: 15px;
     .form__container{
         display: flex;
         flex-direction: row;
@@ -610,17 +613,39 @@ header{
             .column--second{
                 width: 88%;
                 margin: 0 auto;
+                h2{
+                    margin: 0 auto;
+                    font-size: 2.6em;
+                    padding-bottom: 25px;
+                    text-align: right;
+                }
+                p{
+                    margin: 0 auto;
+                    font-size: 1.4em;
+                    line-height: 2em;
+                    text-align: right;
+
+    
+                }
             }
             .form__container--form--second {
                 display: flex;
                 flex-direction: column;
+                width: 69%;
+                input{
+                    border: none;
+                    height: 55px;
+                    width: 88%;
+                    margin: 15px 0;
+
+                }
                 button {
                     font-family: 'Krub', sans-serif;
-                    background: none;
                     border: none;
                     cursor: pointer;
                     letter-spacing: 0.2rem;
                     text-transform: uppercase;
+        
                 }
                 button:focus {
                     outline: none;
@@ -633,8 +658,8 @@ header{
                     background-color: rgba(0, 4, 255, 0.034);
                     transition: color 0.25s 0.0833333333s;
                     position: relative;
-                    margin: 15px auto;
-                    max-width: 69%;
+                    margin: 15px 0;
+                    max-width: 44%;
                     height: 55px;
                     width: 75%;
                     
@@ -682,8 +707,8 @@ header{
                 .draw-border:hover::after {
                 transition-delay: 0s, 0.25s, 0s;
                 }
-            =
             }
+            
         }
     }
 }

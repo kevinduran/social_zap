@@ -786,6 +786,7 @@ header .header--content .header--content__desc .header--content__button--contain
   background-color: #99c5e8a6;
   margin: 100px 25px;
   padding: 15px;
+  height: 50vh;
 }
 
 .form .form__container {

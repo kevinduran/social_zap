@@ -601,6 +601,8 @@ header{
     margin: 100px 25px;
     padding: 15px;
     height: 50vh;
+    display:flex;
+    align-items: center;
     
     .form__container{
         display: flex;

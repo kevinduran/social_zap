@@ -787,6 +787,12 @@ header .header--content .header--content__desc .header--content__button--contain
   margin: 100px 25px;
   padding: 15px;
   height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .form .form__container {

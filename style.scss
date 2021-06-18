@@ -723,3 +723,13 @@ header{
         }
     }
 }
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    .footer__right--container{
+        font-family: $main-font;
+        display: flex;
+        flex-direction: column;
+    }
+}

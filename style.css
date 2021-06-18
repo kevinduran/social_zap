@@ -944,4 +944,23 @@ header .header--content .header--content__desc .header--content__button--contain
   -webkit-transition-delay: 0s, 0.25s, 0s;
           transition-delay: 0s, 0.25s, 0s;
 }
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footer .footer__right--container {
+  font-family: "Krub", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
 /*# sourceMappingURL=style.css.map */

@@ -987,6 +987,13 @@ header .header--content .header--content__desc .header--content__button--contain
   font-size: 1.2em;
 }
 
+.footer .footer__right .footer__right--container .footer__right--container--sub1 a:hover {
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
+  color: #e53b6a;
+  cursor: pointer;
+}
+
 .footer .footer__right .footer__right--container .footer__right--container--sub2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1005,6 +1012,13 @@ header .header--content .header--content__desc .header--content__button--contain
   font-size: 1.2em;
 }
 
+.footer .footer__right .footer__right--container .footer__right--container--sub2 a:hover {
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
+  color: #e53b6a;
+  cursor: pointer;
+}
+
 .footer .footer__left .footer__left--container .socials {
   text-align: center;
   margin-top: 4.20em;
@@ -1013,6 +1027,13 @@ header .header--content .header--content__desc .header--content__button--contain
 .footer .footer__left .footer__left--container .socials i {
   padding: 0 0.5em;
   font-size: 2.69em;
+}
+
+.footer .footer__left .footer__left--container .socials i:hover {
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
+  color: #e53b6a;
+  cursor: pointer;
 }
 
 .footer .footer__left .footer__left--container h2 {

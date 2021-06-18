@@ -749,7 +749,11 @@ header{
                     color: rgb(51, 49, 49);
                     padding: 15px 0;
                     font-size: 1.2em;
-
+                    &:hover{
+                        transition: 0.3s ease all;
+                        color: $base-color;
+                        cursor: pointer;
+                    }
                 }
             }
             .footer__right--container--sub2{
@@ -762,8 +766,13 @@ header{
                     color: rgb(51, 49, 49);
                     padding: 15px 0;
                     font-size: 1.2em;
-
+                    &:hover{
+                        transition: 0.3s ease all;
+                        color: $base-color;
+                        cursor: pointer;
+                    }
                 }
+                
             }
            
         }
@@ -776,6 +785,11 @@ header{
                 i{
                     padding: 0 0.5em;
                     font-size: 2.69em;
+                    &:hover{
+                        transition: 0.3s ease all;
+                        color: $base-color;
+                        cursor: pointer;
+                    }
                 }
             } 
             h2{

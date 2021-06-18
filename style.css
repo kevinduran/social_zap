@@ -954,6 +954,13 @@ header .header--content .header--content__desc .header--content__button--contain
   margin: 13em 0;
 }
 
+.footer .subTitle {
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 1.9em;
+  margin: 0 0 25px 0;
+}
+
 .footer .footer__right .footer__right--container {
   font-family: "Krub", sans-serif;
   display: -webkit-box;
@@ -970,11 +977,14 @@ header .header--content .header--content__desc .header--content__button--contain
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 25px;
+  margin-right: 25px;
 }
 
 .footer .footer__right .footer__right--container .footer__right--container--sub1 a {
   text-decoration: none;
   color: #333131;
+  padding: 15px 0;
+  font-size: 1.2em;
 }
 
 .footer .footer__right .footer__right--container .footer__right--container--sub2 {
@@ -991,16 +1001,18 @@ header .header--content .header--content__desc .header--content__button--contain
 .footer .footer__right .footer__right--container .footer__right--container--sub2 a {
   text-decoration: none;
   color: #333131;
+  padding: 15px 0;
+  font-size: 1.2em;
 }
 
 .footer .footer__left .footer__left--container .socials {
   text-align: center;
-  margin-top: 1.69420em;
+  margin-top: 4.20em;
 }
 
 .footer .footer__left .footer__left--container .socials i {
   padding: 0 0.5em;
-  font-size: 2.69420em;
+  font-size: 2.69em;
 }
 
 .footer .footer__left .footer__left--container h2 {

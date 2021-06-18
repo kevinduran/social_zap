@@ -257,6 +257,10 @@ header .header--content .header--content__desc .header--content__button--contain
           flex-direction: column;
 }
 
+.how .how--container .how--container__three {
+  border-bottom: none !important;
+}
+
 .how .how--container .how--conatiner__unit {
   position: relative;
   padding: 45px;

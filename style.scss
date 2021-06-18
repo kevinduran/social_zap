@@ -191,6 +191,9 @@ header{
     .how--container{
         display: flex;
         flex-direction: column;
+        .how--container__three{
+            border-bottom: none !important;
+        }
         .how--conatiner__unit{
             position: relative;
             padding: 45px;
@@ -207,7 +210,7 @@ header{
                 img{
                     max-width: 100%;
                     height: 100%;
-                    
+  
                 }
             }
             .move--right{

@@ -97,6 +97,13 @@ gsap.to('.ds--3',{
     scrollTrigger: '.ds--3',
      y:-51
 });
+gsap.to('.ds--4',{
+    opacity:1, 
+    delay:0.5,
+    duration:0.5,
+    scrollTrigger: '.ds--4',
+     y:-51
+});
 
 
 gsap.to('.up1',{
@@ -123,4 +130,13 @@ gsap.to('.up3',{
     y:-50
     
 });
+
+
+TweenMax.to('.animated--circle', 15 , {
+    rotation: 30,
+    ease: Linear.easeIn,
+    repeat: -1
+    
+});
+
 

@@ -404,10 +404,12 @@ header{
             .video__container--text--second{
                 height: 69%;
                 width: 69%;
+                }
                 h2{
                     margin: 0 auto;
                     font-size: 2.6em;
                     padding-bottom: 25px;
+                    opacity:0;
                 }
                 p{
                     margin: 0 auto;

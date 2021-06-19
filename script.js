@@ -112,7 +112,22 @@ gsap.to('.ds--5',{
      y:-111
 });
 
-
+gsap.to('.kadabra--2',{
+    opacity:1, 
+    delay:0.9,
+    duration:0.8,
+    scrollTrigger: '.kadabra--2',
+    y:-50
+     
+});
+gsap.to('.kadabra--3',{
+    opacity:1, 
+    delay:0.9,
+    duration:0.8,
+    scrollTrigger: '.kadabra--3',
+    y:-50
+     
+});
 gsap.to('.up1',{
     opacity:1, 
     delay:0.5,
@@ -137,13 +152,6 @@ gsap.to('.up3',{
     y:-50
     
 });
-
-
-TweenMax.to('.animated--circle', 15 , {
-    rotation: 30,
-    ease: Linear.easeIn,
-    repeat: -1
-    
-});
+d
 
 

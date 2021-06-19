@@ -553,6 +553,12 @@ header .header--content .header--content__desc .header--content__button--contain
   overflow: hidden;
 }
 
+.video .video__container .video__container--text .video__container--text--second .kadabra--2 {
+  position: relative;
+  top: 50px;
+  opacity: 0;
+}
+
 .video .video__container .video__container--text .video__container--text--second h2 {
   margin: 0 auto;
   font-size: 2.6em;
@@ -704,6 +710,12 @@ header .header--content .header--content__desc .header--content__button--contain
 
 .video .product__container .product__container--text .product__container--text--second .abra {
   overflow: hidden;
+}
+
+.video .product__container .product__container--text .product__container--text--second .kadabra--3 {
+  position: relative;
+  top: 50px;
+  opacity: 0;
 }
 
 .video .product__container .product__container--text .product__container--text--second h2 {

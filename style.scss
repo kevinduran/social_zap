@@ -408,7 +408,11 @@ header{
                 .abra{
                     overflow: hidden;
                 }
-                
+                .kadabra--2{
+                    position: relative;
+                    top:50px;
+                    opacity: 0;
+                }
                 h2{
                     margin: 0 auto;
                     font-size: 2.6em;
@@ -421,6 +425,7 @@ header{
                     margin: 0 auto;
                     font-size: 1.4em;
                     line-height: 2em;
+            
     
                 }
                 button {
@@ -430,6 +435,7 @@ header{
                     cursor: pointer;
                     letter-spacing: 0.2rem;
                     text-transform: uppercase;
+                  
                 }
                 button:focus {
                     outline: none;
@@ -524,6 +530,11 @@ header{
                 .abra{
                    overflow: hidden;
                 } 
+                .kadabra--3{
+                    position: relative;
+                    top: 50px;
+                    opacity: 0;
+                }
                 h2{
                     margin: 0 auto;
                     font-size: 2.6em;

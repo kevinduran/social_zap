@@ -404,12 +404,17 @@ header{
             .video__container--text--second{
                 height: 69%;
                 width: 69%;
+                .abra{
+                    overflow: hidden;
                 }
+                
                 h2{
                     margin: 0 auto;
                     font-size: 2.6em;
                     padding-bottom: 25px;
-                    opacity:0;
+                    position: relative;
+                    top: 125px;
+                    
                 }
                 p{
                     margin: 0 auto;

@@ -551,17 +551,14 @@ header .header--content .header--content__desc .header--content__button--contain
 
 .video .video__container .video__container--text .video__container--text--second .abra {
   overflow: hidden;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  height: 100px;
 }
 
 .video .video__container .video__container--text .video__container--text--second h2 {
   margin: 0 auto;
   font-size: 2.6em;
   padding-bottom: 25px;
-  opacity: 0;
+  position: relative;
+  top: 125px;
 }
 
 .video .video__container .video__container--text .video__container--text--second p {

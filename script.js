@@ -152,6 +152,37 @@ gsap.to('.up3',{
     y:-50
     
 });
-d
 
 
+gsap.to('.fa-instagram',{
+    opacity:1, 
+    delay:0.4,
+    duration:0.6,
+    scrollTrigger: '.fa-instagram',
+    y:50
+    
+});
+gsap.to('.fa-facebook',{
+    opacity:1, 
+    delay:0.6,
+    duration:0.6,
+    scrollTrigger: '.fa-facebook',
+    y:50
+    
+});
+gsap.to('.fa-twitter',{
+    opacity:1, 
+    delay:0.8,
+    duration:0.6,
+    scrollTrigger: '.fa-twitter',
+    y:50
+    
+});
+gsap.to('.fa-linkedin',{
+    opacity:1, 
+    delay:1,
+    duration:0.6,
+    scrollTrigger: '.fa-linkedin',
+    y:50
+    
+});

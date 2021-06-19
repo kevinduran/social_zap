@@ -702,10 +702,16 @@ header .header--content .header--content__desc .header--content__button--contain
   width: 69%;
 }
 
+.video .product__container .product__container--text .product__container--text--second .abra {
+  overflow: hidden;
+}
+
 .video .product__container .product__container--text .product__container--text--second h2 {
   margin: 0 auto;
   font-size: 2.6em;
   padding-bottom: 25px;
+  position: relative;
+  top: 125px;
 }
 
 .video .product__container .product__container--text .product__container--text--second p {

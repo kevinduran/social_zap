@@ -104,6 +104,13 @@ gsap.to('.ds--4',{
     scrollTrigger: '.ds--4',
      y:-111
 });
+gsap.to('.ds--5',{
+    opacity:1, 
+    delay:0.8,
+    duration:0.5,
+    scrollTrigger: '.ds--5',
+     y:-111
+});
 
 
 gsap.to('.up1',{

@@ -776,6 +776,7 @@ header{
                     color: rgb(51, 49, 49);
                     padding: 15px 0;
                     font-size: 1.2em;
+                    opacity: 0;
                     &:hover{
                         transition: 0.3s ease all;
                         color: $base-color;
@@ -793,6 +794,7 @@ header{
                     color: rgb(51, 49, 49);
                     padding: 15px 0;
                     font-size: 1.2em;
+                    opacity: 0;
                     &:hover{
                         transition: 0.3s ease all;
                         color: $base-color;

@@ -186,3 +186,25 @@ gsap.to('.fa-linkedin',{
     y:50
     
 });
+
+gsap.to('.footerlink--1',{
+    opacity:1,
+    delay: 1.2,
+    duration:0.6,
+    scrollTrigger: '.footerlink--1',
+    x:25
+});
+gsap.to('.footerlink--2',{
+    opacity:1,
+    delay: 1.5,
+    duration:0.6,
+    scrollTrigger: '.footerlink--1',
+    x:25
+});
+gsap.to('.footerlink--3',{
+    opacity:1,
+    delay: 1.8,
+    duration:0.6,
+    scrollTrigger: '.footerlink--1',
+    x:25
+});

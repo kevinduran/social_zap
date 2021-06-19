@@ -1013,6 +1013,7 @@ header .header--content .header--content__desc .header--content__button--contain
   color: #333131;
   padding: 15px 0;
   font-size: 1.2em;
+  opacity: 0;
 }
 
 .footer .footer__right .footer__right--container .footer__right--container--sub1 a:hover {
@@ -1038,6 +1039,7 @@ header .header--content .header--content__desc .header--content__button--contain
   color: #333131;
   padding: 15px 0;
   font-size: 1.2em;
+  opacity: 0;
 }
 
 .footer .footer__right .footer__right--container .footer__right--container--sub2 a:hover {

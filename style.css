@@ -159,6 +159,10 @@ header .header--content .header--content__desc .header--content__button--contain
   top: -50px;
 }
 
+header .header--content .header--content__desc .header--content__button--container .register--button {
+  text-align: center;
+}
+
 header .header--content .header--content__desc .header--content__button--container button {
   font-family: 'Krub', sans-serif;
   background: none;
@@ -810,7 +814,7 @@ header .header--content .header--content__desc .header--content__button--contain
 }
 
 .form--2 {
-  height: 80vh !important;
+  height: 74vh !important;
   margin-top: 45px !important;
   opacity: 0;
   position: relative;

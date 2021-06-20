@@ -621,21 +621,31 @@ header{
         
     }
 }
-
+.form--2{
+    height: 80vh !important;
+    margin-top: 45px !important;
+    opacity: 0 ;
+    position: relative;
+    top: 50px;
+}
 .form{
     font-family: $main-font;
     background-color: #99c5e8a6;
     margin: 100px 25px;
     padding: 15px;
-    height: 50vh;
+    height: 58vh;
     display:flex;
     align-items: center;
+    justify-content: center;
     
     .form__container{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
         width: 100%;
+        
         .column {
             display: flex;
             flex-direction: column;
@@ -644,6 +654,9 @@ header{
             .column--second{
                 width: 88%;
                 margin: 0 auto;
+                .register--h2{
+                    font-size: 5em;
+                }
                 h2{
                     margin: 0 auto;
                     font-size: 2.6em;
@@ -655,7 +668,7 @@ header{
                     font-size: 1.4em;
                     line-height: 2em;
                     text-align: right;
-
+                    
     
                 }
             }
@@ -670,6 +683,7 @@ header{
                     margin: 15px 0;
                     font-size: 1.1em;
                     font-family: $main-font;
+                    padding-left: 10px;
                 }
                 input:focus {
                     outline: none !important;

@@ -809,18 +809,29 @@ header .header--content .header--content__desc .header--content__button--contain
           transition-delay: 0s, 0.25s, 0s;
 }
 
+.form--2 {
+  height: 80vh !important;
+  margin-top: 45px !important;
+  opacity: 0;
+  position: relative;
+  top: 50px;
+}
+
 .form {
   font-family: "Krub", sans-serif;
   background-color: #99c5e8a6;
   margin: 100px 25px;
   padding: 15px;
-  height: 50vh;
+  height: 58vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .form .form__container {
@@ -833,6 +844,12 @@ header .header--content .header--content__desc .header--content__button--contain
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100%;
 }
 
@@ -854,6 +871,10 @@ header .header--content .header--content__desc .header--content__button--contain
 .form .form__container .column .column--second {
   width: 88%;
   margin: 0 auto;
+}
+
+.form .form__container .column .column--second .register--h2 {
+  font-size: 5em;
 }
 
 .form .form__container .column .column--second h2 {
@@ -888,6 +909,7 @@ header .header--content .header--content__desc .header--content__button--contain
   margin: 15px 0;
   font-size: 1.1em;
   font-family: "Krub", sans-serif;
+  padding-left: 10px;
 }
 
 .form .form__container .column .form__container--form--second input:focus {

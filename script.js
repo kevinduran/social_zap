@@ -208,3 +208,11 @@ gsap.to('.footerlink--3',{
     scrollTrigger: '.footerlink--1',
     x:25
 });
+
+
+gsap.to('.form--2',{
+    opacity:1,
+    delay: 0.9,
+    duration:0.6,
+    y:-50
+});

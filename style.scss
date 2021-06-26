@@ -850,3 +850,23 @@ header{
         }
     }
 }
+
+
+.price{
+    display:flex;
+    justify-content: space-around;
+    .price__free{
+        border: 1px solid $base-color;
+        display: flex;
+        flex: 2;
+        height: 69vh;
+    
+    }
+    .price__pro{
+        border: 1px solid $base-color;
+        display: flex;
+        flex: 2;
+        height: 69vh;
+
+    }
+}

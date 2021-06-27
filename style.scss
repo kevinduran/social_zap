@@ -855,18 +855,24 @@ header{
 .price{
     display:flex;
     justify-content: space-around;
+    margin-top: 4em;
     .price__free{
-        border: 1px solid $base-color;
         display: flex;
         flex: 2;
         height: 69vh;
-    
+        justify-content: center;
+        align-items: center;
     }
     .price__pro{
-        border: 1px solid $base-color;
         display: flex;
         flex: 2;
         height: 69vh;
-
+        justify-content: center;
+        align-items: center;
+    }
+    .price--container{
+        width: 89%;
+        height: 89%;
+        border: 10px solid $base-color;
     }
 }

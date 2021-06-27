@@ -1164,6 +1164,10 @@ header .header--content .header--content__desc .header--content__button--contain
   font-size: 3em;
 }
 
+.price .price--container .price--container-top li {
+  list-style: none;
+}
+
 .price .price--container button {
   font-family: 'Krub', sans-serif;
   border: none;

@@ -216,3 +216,17 @@ gsap.to('.form--2',{
     duration:0.6,
     y:-50
 });
+
+
+gsap.to('.price--container-one',{
+    opacity:1,
+    delay: 0.9,
+    duration:0.6,
+    y:50
+});
+gsap.to('.price--container-two',{
+    opacity:1,
+    delay: 1.2,
+    duration:0.6,
+    y:50
+});

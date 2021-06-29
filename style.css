@@ -1033,28 +1033,65 @@ header .header--content .header--content__desc .header--content__button--contain
       -ms-flex: 2;
           flex: 2;
   height: 72vh;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
-.price .price__pro button {
-  width: 200px !important;
+.price .price__pro .pro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0 !important;
 }
 
-.price .pro a {
+.price .price__pro .pro button {
+  max-width: 100%;
+}
+
+.price .price__pro .pro .pro--one {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+
+.price .price__pro .pro .pro--one a {
   padding: 0 20px;
+}
+
+.price .price__pro .pro .pro--one p {
+  font-size: 1.1em;
+  font-weight: bolder;
+}
+
+.price .price__pro .pro .pro--two {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+
+.price .price__pro .pro .pro--two a {
+  padding: 0 20px;
+}
+
+.price .price__pro .pro .pro--two .bold {
+  font-weight: bolder;
+}
+
+.price .price__pro .pro .pro--two p {
+  font-size: 1.1em;
+  font-weight: bolder;
 }
 
 .price .price--container-one {
   background-color: #5ea9dd36;
+  position: relative;
+  top: -50px;
+  opacity: 0;
 }
 
 .price .price--container-two {
   background-color: #e53b6a14;
+  position: relative;
+  top: -50px;
+  opacity: 0;
 }
 
 .price .price--container {

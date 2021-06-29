@@ -1083,14 +1083,14 @@ header .header--content .header--content__desc .header--content__button--contain
 .price .price--container-one {
   background-color: #5ea9dd36;
   position: relative;
-  top: -50px;
+  top: 50px;
   opacity: 0;
 }
 
 .price .price--container-two {
   background-color: #e53b6a14;
   position: relative;
-  top: -50px;
+  top: 50px;
   opacity: 0;
 }
 

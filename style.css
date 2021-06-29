@@ -1059,6 +1059,8 @@ header .header--content .header--content__desc .header--content__button--contain
 .price .price__pro .pro .pro--one p {
   font-size: 1.1em;
   font-weight: bolder;
+  position: relative;
+  top: 15px;
 }
 
 .price .price__pro .pro .pro--two {
@@ -1073,11 +1075,15 @@ header .header--content .header--content__desc .header--content__button--contain
 
 .price .price__pro .pro .pro--two .bold {
   font-weight: bolder;
+  position: relative;
+  top: -25px;
 }
 
 .price .price__pro .pro .pro--two p {
   font-size: 1.1em;
   font-weight: bolder;
+  position: relative;
+  top: 15px;
 }
 
 .price .price--container-one {

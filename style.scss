@@ -768,6 +768,158 @@ header{
     }
 }
 
+
+
+.price{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 4em;
+    font-family: $main-font;
+    
+   
+    .price__free{
+        display: flex;
+        flex: 2;
+        height: 72vh;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .price__pro{
+        display: flex;
+        flex: 2;
+        height: 72vh;
+        justify-content: center;
+        align-items: center;
+
+        button{
+            width: 200px !important;
+        }
+        
+    }
+    .pro{
+        
+        a{
+            padding: 0 20px;
+        }
+    }
+    .price--container-one{
+        background-color: #5ea9dd36;
+    }
+    .price--container-two{
+        background-color: #e53b6a14;
+    }
+    .price--container{
+        width: 89%;
+        height: 100%;
+        ul {
+            list-style-type: none;
+            
+            li{
+                line-height: 2.2em;
+                font-size: 1.12em;
+            }
+            i {
+                color: rgb(30, 167, 30);
+                padding-right: 6.9px;
+            }
+        }
+        .price--button_single{
+            text-align: center;
+        }
+        
+        .price--container-top{
+            text-align: center;
+           
+            h1{
+                font-size: 3em;
+               
+            }
+            
+            
+        }
+        button {
+            font-family: 'Krub', sans-serif;
+            border: none;
+            cursor: pointer;
+            letter-spacing: 0.2rem;
+            text-transform: uppercase;
+
+        }
+        button:focus {
+            outline: none;
+        } 
+        .draw-border {
+            box-shadow: inset 0 0 0 4px $secondary-color;
+            color: $font-color;
+            font-weight: bolder;
+            font-size: 1.2em;
+            background-color: rgba(0, 4, 255, 0.034);
+            transition: color 0.25s 0.0833333333s;
+            position: relative;
+            margin: 15px 0;
+            max-width: 44%;
+            height: 55px;
+            width: 75%;
+            
+        }  
+        .draw-border::before,
+        .draw-border::after {
+        border: 0 solid transparent;
+        box-sizing: border-box;
+        content: "";
+        pointer-events: none;
+        position: absolute;
+        width: 0;
+        height: 0;
+        bottom: 0;
+        right: 0;
+        }
+
+        .draw-border::before {
+        border-bottom-width: 5px;
+        border-left-width: 5px;
+        }
+
+        .draw-border::after {
+        border-top-width: 5px;
+        border-right-width: 5px;
+        }
+
+        .draw-border:hover {
+        color: $base-color;
+        background-color: #e53b6b36;
+        }
+
+        .draw-border:hover::before,
+        .draw-border:hover::after {
+        border-color: $base-color;
+        transition: border-color 0s, width 0.25s, height 0.25s;
+        width: 100%;
+        height: 100%;
+        }
+
+        .draw-border:hover::before {
+        transition-delay: 0s, 0s, 0.25s;
+        }
+
+        .draw-border:hover::after {
+        transition-delay: 0s, 0.25s, 0s;
+        }
+        .price--container-bottom{
+            text-align: center;
+            margin-top: 69px;
+            
+        }
+    
+
+    }
+}
+
+
+
+
+
 .footer{
     display: flex;
     justify-content: space-around;
@@ -852,119 +1004,3 @@ header{
 }
 
 
-.price{
-    display:flex;
-    justify-content: space-around;
-    margin-top: 4em;
-    font-family: $main-font;
-   
-    .price__free{
-        display: flex;
-        flex: 2;
-        height: 69vh;
-        justify-content: center;
-        align-items: center;
-    }
-    .price__pro{
-        display: flex;
-        flex: 2;
-        height: 69vh;
-        justify-content: center;
-        align-items: center;
-        
-    }
-    .price--container-one{
-        background-color: #5ea9dd36;
-    }
-    .price--container-two{
-        background-color: #e53b6a14;
-    }
-    .price--container{
-        width: 89%;
-        height: 89%;
-        
-        
-        .price--container-top{
-            text-align: center;
-           
-            h1{
-                font-size: 3em;
-               
-            }
-            li{
-               list-style: none;
-            }
-            
-        }
-        button {
-            font-family: 'Krub', sans-serif;
-            border: none;
-            cursor: pointer;
-            letter-spacing: 0.2rem;
-            text-transform: uppercase;
-
-        }
-        button:focus {
-            outline: none;
-        } 
-        .draw-border {
-            box-shadow: inset 0 0 0 4px $secondary-color;
-            color: $font-color;
-            font-weight: bolder;
-            font-size: 1.2em;
-            background-color: rgba(0, 4, 255, 0.034);
-            transition: color 0.25s 0.0833333333s;
-            position: relative;
-            margin: 15px 0;
-            max-width: 44%;
-            height: 55px;
-            width: 75%;
-            
-        }  
-        .draw-border::before,
-        .draw-border::after {
-        border: 0 solid transparent;
-        box-sizing: border-box;
-        content: "";
-        pointer-events: none;
-        position: absolute;
-        width: 0;
-        height: 0;
-        bottom: 0;
-        right: 0;
-        }
-
-        .draw-border::before {
-        border-bottom-width: 5px;
-        border-left-width: 5px;
-        }
-
-        .draw-border::after {
-        border-top-width: 5px;
-        border-right-width: 5px;
-        }
-
-        .draw-border:hover {
-        color: $base-color;
-        background-color: #e53b6b36;
-        }
-
-        .draw-border:hover::before,
-        .draw-border:hover::after {
-        border-color: $base-color;
-        transition: border-color 0s, width 0.25s, height 0.25s;
-        width: 100%;
-        height: 100%;
-        }
-
-        .draw-border:hover::before {
-        transition-delay: 0s, 0s, 0.25s;
-        }
-
-        .draw-border:hover::after {
-        transition-delay: 0s, 0.25s, 0s;
-        }
-    
-
-    }
-}

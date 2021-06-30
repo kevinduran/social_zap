@@ -1217,8 +1217,8 @@ header .header--content .header--content__desc .header--content__button--contain
 }
 
 .tos .tos--container {
-  margin: 30px;
-  line-height: 3em;
+  margin: 50px;
+  line-height: 4.8em;
 }
 
 .tos .tos--container h1 {
@@ -1229,6 +1229,8 @@ header .header--content .header--content__desc .header--content__button--contain
 
 .tos .tos--container h3 {
   margin-top: 5em;
+  font-size: 1.2em;
+  font-weight: bolder;
 }
 
 .footer {

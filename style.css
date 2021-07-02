@@ -1032,7 +1032,7 @@ header .header--content .header--content__desc .header--content__button--contain
   -webkit-box-flex: 2;
       -ms-flex: 2;
           flex: 2;
-  height: 72vh;
+  height: 80vh;
 }
 
 .price .price__pro .pro {

@@ -1016,7 +1016,7 @@ header .header--content .header--content__desc .header--content__button--contain
   -webkit-box-flex: 2;
       -ms-flex: 2;
           flex: 2;
-  height: 72vh;
+  height: 80vh;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -1231,6 +1231,14 @@ header .header--content .header--content__desc .header--content__button--contain
   margin-top: 5em;
   font-size: 1.2em;
   font-weight: bolder;
+}
+
+.about {
+  border: 1px solid red;
+}
+
+.about .about__container {
+  border: 1px solid blue;
 }
 
 .footer {

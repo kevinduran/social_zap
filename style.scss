@@ -780,7 +780,7 @@ header{
     .price__free{
         display: flex;
         flex: 2;
-        height: 72vh;
+        height: 80vh;
         justify-content: center;
         align-items: center;
         
@@ -970,6 +970,13 @@ header{
     }
 }
 
+
+.about{
+    border: 1px solid red;
+    .about__container{
+        border: 1px solid blue;
+    }
+}
 
 
 

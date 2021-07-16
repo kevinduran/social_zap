@@ -1241,6 +1241,67 @@ header .header--content .header--content__desc .header--content__button--contain
   border: 1px solid blue;
 }
 
+.wst {
+  margin: 100px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wst .wst__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wst .wst__header .wst__header--title {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+
+.wst .wst__header .wst__header--title h1 {
+  font-size: 3em;
+  font-family: "Krub", sans-serif;
+}
+
+.wst .wst__header .wst__header--title h1 .logo--special {
+  font-family: "Audiowide", cursive;
+}
+
+.wst .wst__header .wst__header--title p {
+  font-size: 1.5em;
+  margin: 5px 25px;
+}
+
+.wst .wst__header .wst__header--image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+
+.wst .wst__header .wst__header--image img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 666px;
+}
+
 .footer {
   display: -webkit-box;
   display: -ms-flexbox;

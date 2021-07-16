@@ -1012,13 +1012,16 @@ header{
             h1{
                 font-size: 3em;
                 font-family: $main-font;
+                margin-left: 25px;
                 .logo--special{
                     font-family: $logo-font;
                 }
             }
             p{
-                font-size: 1.5em;
+                font-size: 1.6em;
                 margin: 5px 25px;
+                line-height: 2em;
+                width: 69.420%;
             }
         }
         .wst__header--image{

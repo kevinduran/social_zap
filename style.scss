@@ -1000,10 +1000,11 @@ header{
 // ---------------------------- WST -------------------------------//
 
 .wst{
-    margin: 100px 0;
+    margin-top: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     .wst__header{
         display: flex;
         justify-content: center;
@@ -1022,6 +1023,7 @@ header{
                 margin: 5px 25px;
                 line-height: 2em;
                 width: 69.420%;
+                font-family: $main-font;
             }
         }
         .wst__header--image{
@@ -1030,13 +1032,46 @@ header{
             flex: 2;
             
             img{
-                display: flex;
                 width: 100%;
                 margin: 0 auto;
                 max-width: 666px;
             }
         }
     }
+    .wst__header-two{
+        margin-top: 15%;
+        display: flex;
+        justify-content: center;
+        .wst__header--title{
+            flex: 2;
+            h1{
+                font-size: 3em;
+                font-family: $main-font;
+                margin-left: 25px;
+                .logo--special{
+                    font-family: $logo-font;
+                }
+            }
+            p{
+                font-size: 1.5em;
+                margin: 5px 25px;
+                line-height: 2.6em;
+                width: 80%;
+                font-family: $main-font;
+            }
+        }
+        .wst__header--image{
+            display: flex;
+            overflow: hidden;
+            flex: 2;
+            img{
+                width: 60%;
+                margin: 0 auto;
+                max-width: 666px;
+            }
+        }
+    }
+    
 
 }
 

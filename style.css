@@ -1242,7 +1242,7 @@ header .header--content .header--content__desc .header--content__button--contain
 }
 
 .wst {
-  margin: 100px 0;
+  margin-top: 15%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1252,6 +1252,10 @@ header .header--content .header--content__desc .header--content__button--contain
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .wst .wst__header {
@@ -1284,6 +1288,7 @@ header .header--content .header--content__desc .header--content__button--contain
   margin: 5px 25px;
   line-height: 2em;
   width: 69.420%;
+  font-family: "Krub", sans-serif;
 }
 
 .wst .wst__header .wst__header--image {
@@ -1297,10 +1302,57 @@ header .header--content .header--content__desc .header--content__button--contain
 }
 
 .wst .wst__header .wst__header--image img {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 666px;
+}
+
+.wst .wst__header-two {
+  margin-top: 15%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wst .wst__header-two .wst__header--title {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+
+.wst .wst__header-two .wst__header--title h1 {
+  font-size: 3em;
+  font-family: "Krub", sans-serif;
+  margin-left: 25px;
+}
+
+.wst .wst__header-two .wst__header--title h1 .logo--special {
+  font-family: "Audiowide", cursive;
+}
+
+.wst .wst__header-two .wst__header--title p {
+  font-size: 1.5em;
+  margin: 5px 25px;
+  line-height: 2.6em;
+  width: 80%;
+  font-family: "Krub", sans-serif;
+}
+
+.wst .wst__header-two .wst__header--image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+
+.wst .wst__header-two .wst__header--image img {
+  width: 60%;
   margin: 0 auto;
   max-width: 666px;
 }

@@ -10,8 +10,6 @@ gsap.to('.header--content__desc',{
     duration:1,
      y:-50
 });
-
-
 gsap.to('.num1',{
     opacity:1, 
     delay:0.2,
@@ -19,7 +17,6 @@ gsap.to('.num1',{
     scrollTrigger: '.num1',
      y:-210,
 });
-
 gsap.to('.num2',{
     opacity:1, 
     delay:0.5,
@@ -27,7 +24,6 @@ gsap.to('.num2',{
     scrollTrigger: '.num2',
      y:-210
 });
-
 gsap.to('.num3',{
     opacity:1, 
     delay:0.2,
@@ -74,8 +70,6 @@ gsap.to('.three--link',{
     duration:0.6,
      y:-30
 });
-
-
 gsap.to('.ds--1',{
     opacity:1, 
     delay:0.8,
@@ -111,7 +105,6 @@ gsap.to('.ds--5',{
     scrollTrigger: '.ds--5',
      y:-111
 });
-
 gsap.to('.kadabra--2',{
     opacity:1, 
     delay:0.9,
@@ -149,11 +142,8 @@ gsap.to('.up3',{
     delay:0.5,
     duration:1,
     scrollTrigger: '.up3',
-    y:-50
-    
+    y:-50 
 });
-
-
 gsap.to('.fa-instagram',{
     opacity:1, 
     delay:0.4,
@@ -186,7 +176,6 @@ gsap.to('.fa-linkedin',{
     y:50
     
 });
-
 gsap.to('.footerlink--1',{
     opacity:1,
     delay: 1.2,
@@ -208,16 +197,12 @@ gsap.to('.footerlink--3',{
     scrollTrigger: '.footerlink--1',
     x:25
 });
-
-
 gsap.to('.form--2',{
     opacity:1,
     delay: 0.9,
     duration:0.6,
     y:-50
 });
-
-
 gsap.to('.price--container-one',{
     opacity:1,
     delay: 0.9,
@@ -227,6 +212,18 @@ gsap.to('.price--container-one',{
 gsap.to('.price--container-two',{
     opacity:1,
     delay: 1.2,
+    duration:0.6,
+    y:-50
+});
+gsap.to('.image--one',{
+    opacity:1,
+    delay: 0.9,
+    duration:0.6,
+    y:-50
+});
+gsap.to('.image--two',{
+    opacity:1,
+    delay: 0.9,
     duration:0.6,
     y:-50
 });

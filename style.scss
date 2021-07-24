@@ -1010,14 +1010,25 @@ header{
         justify-content: center;
         .wst__header--title{
             flex: 2;
-            h1{
-                font-size: 3em;
-                font-family: $main-font;
-                margin-left: 25px;
-                .logo--special{
-                    font-family: $logo-font;
+            .abra{
+               overflow: hidden;
+               width: fit-content;
+                h1{
+                    font-size: 3em;
+                    font-family: $main-font;
+                    margin-left: 25px;
+                    position: relative;
+                    top: 100px;
+                    .logo--special{
+                        font-family: $logo-font;
+                    }
                 }
-            }
+            }   
+            .kadabra-two{
+                position: relative;
+                top: 50px;
+                opacity: 0;
+            }      
             p{
                 font-size: 1.6em;
                 margin: 5px 25px;
@@ -1135,15 +1146,14 @@ header{
            
         }
         
-        .wst__header--image{
+       
+        .wst__header--image-two{
             display: flex;
             overflow: hidden;
             flex: 2;
-            position:relative;
-            top: 69px;
-            
             img{
-                width: 60%;
+                width: 100%;
+                height: fit-content;
                 margin: 0 auto;
                 max-width: 666px;
             }

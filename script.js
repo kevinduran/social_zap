@@ -223,7 +223,19 @@ gsap.to('.image--one',{
 });
 gsap.to('.image--two',{
     opacity:1,
-    delay: 0.9,
+    delay: 0.69,
+    scrollTrigger: '.image--two',
     duration:0.6,
     y:-50
+});
+gsap.to('.wst__header--title-top',{
+    duration:0.69,
+    delay:0.69,
+    y:-100
+});
+gsap.to('.kadabra-two',{
+    opacity:1,
+    duration:0.69,
+    delay:1,
+    y:-69
 });

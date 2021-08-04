@@ -1008,6 +1008,7 @@ header{
     .wst__header{
         display: flex;
         justify-content: center;
+        margin-bottom: 15%;
         .wst__header--title{
             flex: 2;
             .abra{
@@ -1147,7 +1148,7 @@ header{
         }
         
        
-        .wst__header--image-two{
+        .image--two{
             display: flex;
             overflow: hidden;
             flex: 2;
@@ -1155,7 +1156,7 @@ header{
                 width: 100%;
                 height: fit-content;
                 margin: 0 auto;
-                max-width: 666px;
+                max-width: 466px;
             }
         }
     }

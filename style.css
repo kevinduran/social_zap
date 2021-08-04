@@ -1265,6 +1265,7 @@ header .header--content .header--content__desc .header--content__button--contain
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-bottom: 15%;
 }
 
 .wst .wst__header .wst__header--title {
@@ -1433,7 +1434,7 @@ header .header--content .header--content__desc .header--content__button--contain
   font-family: "Krub", sans-serif;
 }
 
-.wst .wst__header-two .wst__header--image-two {
+.wst .wst__header-two .image--two {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1443,13 +1444,13 @@ header .header--content .header--content__desc .header--content__button--contain
           flex: 2;
 }
 
-.wst .wst__header-two .wst__header--image-two img {
+.wst .wst__header-two .image--two img {
   width: 100%;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   margin: 0 auto;
-  max-width: 666px;
+  max-width: 466px;
 }
 
 .footer {

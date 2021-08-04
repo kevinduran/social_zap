@@ -251,6 +251,7 @@ header{
                 position: relative;
                 align-items: flex-end;
                 overflow: hidden; 
+                justify-content: center;
                 .num{
                     font-size: 18em;
                     margin: 0;
@@ -267,7 +268,7 @@ header{
 
             }
             .right{
-                justify-content:flex-end;
+                justify-content:center;
             }
             .desc--container--left{
                 display: flex;
@@ -287,7 +288,7 @@ header{
                 display: flex;
                 flex-direction: column;
                 position: relative;
-               // align-items: center;
+                align-items: center;
                 justify-content: center;
                 button {
                     font-family: 'Krub', sans-serif;
@@ -1129,14 +1130,7 @@ header{
     .wtb__header--two{
         margin: 10% 0 !important;
     }
-    .float-left{
-        text-align: end;
-        margin-right: 0 !important;
-    }
-    .toppy{
-        margin-top: 8% !important;
-    }
-   
+    
     .wst__header-two{
         margin-top: 15%;
         display: flex;

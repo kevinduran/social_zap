@@ -325,6 +325,9 @@ header .header--content .header--content__desc .header--content__button--contain
       -ms-flex-align: end;
           align-items: flex-end;
   overflow: hidden;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .how .how--container .how--conatiner__unit .num--container .num {
@@ -342,9 +345,9 @@ header .header--content .header--content__desc .header--content__button--contain
 }
 
 .how .how--container .how--conatiner__unit .right {
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .how .how--container .how--conatiner__unit .desc--container--left {
@@ -377,6 +380,9 @@ header .header--content .header--content__desc .header--content__button--contain
       -ms-flex-direction: column;
           flex-direction: column;
   position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -1406,15 +1412,6 @@ header .header--content .header--content__desc .header--content__button--contain
 
 .wst .wtb__header--two {
   margin: 10% 0 !important;
-}
-
-.wst .float-left {
-  text-align: end;
-  margin-right: 0 !important;
-}
-
-.wst .toppy {
-  margin-top: 8% !important;
 }
 
 .wst .wst__header-two {

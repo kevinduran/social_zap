@@ -1400,6 +1400,23 @@ header .header--content .header--content__desc .header--content__button--contain
   max-width: 666px;
 }
 
+.wst .wtb__header--one {
+  margin: 5% 0 !important;
+}
+
+.wst .wtb__header--two {
+  margin: 10% 0 !important;
+}
+
+.wst .float-left {
+  text-align: end;
+  margin-right: 0 !important;
+}
+
+.wst .toppy {
+  margin-top: 8% !important;
+}
+
 .wst .wst__header-two {
   margin-top: 15%;
   display: -webkit-box;
@@ -1432,6 +1449,25 @@ header .header--content .header--content__desc .header--content__button--contain
   line-height: 2.6em;
   width: 80%;
   font-family: "Krub", sans-serif;
+}
+
+.wst .wst__header-two .wst__header--image-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+
+.wst .wst__header-two .wst__header--image-two img {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 0 auto;
+  max-width: 666px;
 }
 
 .wst .wst__header-two .image--two {

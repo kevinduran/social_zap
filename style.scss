@@ -1008,7 +1008,7 @@ header{
     .wst__header{
         display: flex;
         justify-content: center;
-        margin-bottom: 15%;
+        margin-bottom:15%;
         .wst__header--title{
             flex: 2;
             .abra{
@@ -1123,6 +1123,20 @@ header{
             }
         }
     }
+    .wtb__header--one{
+        margin: 5% 0 !important;
+    }
+    .wtb__header--two{
+        margin: 10% 0 !important;
+    }
+    .float-left{
+        text-align: end;
+        margin-right: 0 !important;
+    }
+    .toppy{
+        margin-top: 8% !important;
+    }
+   
     .wst__header-two{
         margin-top: 15%;
         display: flex;
@@ -1147,7 +1161,17 @@ header{
            
         }
         
-       
+        .wst__header--image-two{
+            display: flex;
+            overflow: hidden;
+            flex: 2;
+            img{
+                width: 100%;
+                height: fit-content;
+                margin: 0 auto;
+                max-width: 666px;
+            }
+        }
         .image--two{
             display: flex;
             overflow: hidden;

@@ -470,7 +470,7 @@ header .header--content .header--content__desc .header--content__button--contain
   position: relative;
   font-size: 1.3em;
   line-height: 2em;
-  width: 69%;
+  width: 85%;
 }
 
 .how .how--container .how--conatiner__unit .desc--container .desc--title {
@@ -489,6 +489,7 @@ header .header--content .header--content__desc .header--content__button--contain
 .how .how--container .how--conatiner__unit .desc--container .kadabra {
   overflow: hidden;
   height: 250px;
+  text-align: center;
 }
 
 .how .how--container .how--conatiner__unit .desc--container .up1, .how .how--container .how--conatiner__unit .desc--container .up2, .how .how--container .how--conatiner__unit .desc--container .up3 {

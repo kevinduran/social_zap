@@ -1488,6 +1488,18 @@ header .header--content .header--content__desc .header--content__button--contain
   max-width: 466px;
 }
 
+.wst .wtb-up-1 {
+  opacity: 0;
+  position: relative;
+  top: 50px;
+}
+
+.wst .wtb-up-2 {
+  opacity: 0;
+  position: relative;
+  top: 50px;
+}
+
 .footer {
   display: -webkit-box;
   display: -ms-flexbox;

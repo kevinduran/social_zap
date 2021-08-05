@@ -239,3 +239,15 @@ gsap.to('.kadabra-two',{
     delay:1,
     y:-69
 });
+gsap.to('.wtb-up-1',{
+    opacity:1,
+    duration:0.69,
+    delay:1,
+    y:-60
+});
+gsap.to('.wtb-up-2',{
+    opacity:1,
+    duration:0.69,
+    delay:1,
+    y:-60
+});

@@ -465,6 +465,10 @@ header .header--content .header--content__desc .header--content__button--contain
           transition-delay: 0s, 0.25s, 0s;
 }
 
+.how .how--container .how--conatiner__unit .desc--container .up2 {
+  text-align: center;
+}
+
 .how .how--container .how--conatiner__unit .desc--container .desc {
   margin: 0;
   position: relative;

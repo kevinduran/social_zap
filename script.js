@@ -260,3 +260,11 @@ gsap.to('.up-8',{
     y:-90
      
 });
+gsap.to('.wsz-list',{
+    opacity:1, 
+    delay:1,
+    duration:0.5,
+    scrollTrigger: '.wsz-list',
+    y:-30
+     
+});

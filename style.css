@@ -1526,13 +1526,18 @@ header .header--content .header--content__desc .header--content__button--contain
 }
 
 .wst ul li {
-  line-height: 3em;
+  line-height: 2.3em;
   font-size: 1.420em;
 }
 
 .wst ul i {
   color: #1ea71e;
   padding-right: 6.9px;
+}
+
+.wst .wsz-list {
+  opacity: 0;
+  margin-top: 5%;
 }
 
 .footer {

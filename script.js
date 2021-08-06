@@ -251,3 +251,12 @@ gsap.to('.wtb-up-2',{
     delay:1,
     y:-60
 });
+
+gsap.to('.up-8',{
+    opacity:1, 
+    delay:0.5,
+    duration:0.5,
+    scrollTrigger: '.up-8',
+    y:-90
+     
+});

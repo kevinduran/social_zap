@@ -1520,6 +1520,21 @@ header .header--content .header--content__desc .header--content__button--contain
   max-width: 666px;
 }
 
+.wst ul {
+  list-style-type: none;
+  font-family: "Krub", sans-serif;
+}
+
+.wst ul li {
+  line-height: 3em;
+  font-size: 1.420em;
+}
+
+.wst ul i {
+  color: #1ea71e;
+  padding-right: 6.9px;
+}
+
 .footer {
   display: -webkit-box;
   display: -ms-flexbox;

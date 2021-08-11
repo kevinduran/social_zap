@@ -1272,7 +1272,7 @@ header .header--content .header--content__desc .header--content__button--contain
 }
 
 .wst .main-wst {
-  margin-top: 5em;
+  margin-top: 1em;
 }
 
 .wst .wst__header {
@@ -1296,6 +1296,12 @@ header .header--content .header--content__desc .header--content__button--contain
 
 .wst .wst__header .wst__header--title .wst__header--title-bottom {
   margin-top: 3%;
+}
+
+.wst .wst__header .wst__header--title .up4 {
+  position: relative;
+  top: 30px;
+  opacity: 0;
 }
 
 .wst .wst__header .wst__header--title .abra {

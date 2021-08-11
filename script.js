@@ -237,19 +237,23 @@ gsap.to('.kadabra-two',{
     opacity:1,
     duration:0.69,
     delay:1,
-    y:-69
+    y:-90
 });
 gsap.to('.wtb-up-1',{
     opacity:1,
     duration:0.69,
-    delay:1,
-    y:-60
+    delay:0.4,
+    y:-60,
+    scrollTrigger: '.wtb-up-1'
+
 });
 gsap.to('.wtb-up-2',{
     opacity:1,
     duration:0.69,
-    delay:1,
-    y:-60
+    delay:0.4,
+    y:-60,
+    scrollTrigger: '.wtb-up-2'
+
 });
 
 gsap.to('.up-8',{
@@ -266,5 +270,13 @@ gsap.to('.wsz-list',{
     duration:0.5,
     scrollTrigger: '.wsz-list',
     y:-30
+     
+});
+gsap.to('.up4',{
+    opacity:1, 
+    duration:0.5,
+    delay:0.8,
+    scrollTrigger: '.up4',
+    y:-60
      
 });

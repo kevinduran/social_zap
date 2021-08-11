@@ -1011,7 +1011,7 @@ header{
     flex-direction: column;
     padding: 9em 0 0 0;
     .main-wst{
-        margin-top: 5em;
+        margin-top: 1em;
     }
     .wst__header{
         display: flex;
@@ -1022,6 +1022,11 @@ header{
             align-items: center;
             .wst__header--title-bottom {
                 margin-top: 3%;
+            }
+            .up4{
+                position: relative;
+                top:30px;
+                opacity: 0;
             }
             .abra{
                overflow: hidden;
@@ -1198,7 +1203,7 @@ header{
             max-width: 666px;
         }
     }
-
+  
     ul {
         list-style-type: none;
         font-family: $main-font;
@@ -1312,3 +1317,4 @@ header{
 }
 
 
+// ---------------------------- MEDIA QUERIES -------------------------------//

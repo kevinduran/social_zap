@@ -284,7 +284,15 @@ gsap.to('.up4',{
 
 
 var burger = document.querySelector('.burger');
-
+var dropdown = document.querySelector('.dropdown-nav');
 burger.addEventListener('click',()=>{
-    burger.classList.toggle('burger-active')
+    burger.classList.toggle('burger-active');
+    dropdown.classList.toggle('dropdown-active');
+    gsap.to('.link1',{
+        opacity:1, 
+        duration:0.5,
+        delay:0.8,
+        y:-60
+         
+    });
 })

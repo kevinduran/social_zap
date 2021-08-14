@@ -280,3 +280,11 @@ gsap.to('.up4',{
     y:-60
      
 });
+
+
+
+var burger = document.querySelector('.burger');
+
+burger.addEventListener('click',()=>{
+    burger.classList.toggle('burger-active')
+})

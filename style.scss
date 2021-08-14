@@ -47,6 +47,7 @@ header{
             }
 
         }
+        
         .header--nav__links {
             height: 10vh !important;
             display: flex;
@@ -74,7 +75,11 @@ header{
             }
            
         }
-        #burger{
+  
+        
+      
+        
+        .burger{
             height: 50px;
             width: 50px;
             display: none;
@@ -215,7 +220,6 @@ header{
         }
     }
 }
-
 
 // ---------------------------- HOW -------------------------------//
 
@@ -1344,12 +1348,5 @@ header{
 
 // +++++++++++++  969  +++++++++++++++ //
 
-@media (max-width: 969px){
-    #burger{
-        display:flex !important ;
-    }
-    .header--nav__links{
-        display: none !important;
-    }
-}
+
 

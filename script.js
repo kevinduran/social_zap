@@ -292,7 +292,6 @@ burger.addEventListener('click',()=>{
         opacity:1, 
         duration:0.5,
         delay:0.8,
-        y:-60
-         
+        y:-60   
     });
 })

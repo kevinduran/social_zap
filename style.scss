@@ -22,17 +22,6 @@ body{
     font-size: 2.5em !important;
 }
 
-@keyframes linkDown {
-    0% {
-        transform: translateY(0);
-        opacity:0;    
-    }
-
-    100% {
-        transform: translateY(10px);
-        opacity:1;  
-    }
-}
 
 
 // ---------------------------- HEADER -------------------------------//
@@ -46,26 +35,49 @@ header{
         width: 100vw;
         left: 0;
         top: 0;
-        background-color: rgba(233, 60, 109, 0.9);
+        background-color: rgba(233, 60, 109, 0.95);
         position: absolute;
         transition: 0.5s ease all;  
-        li{
-            font-size: 5em;
-            display: none;     
+        ul{
+            width: 89%;
+            text-align: center;
+            position: relative;
+            left: -25px;
+            a{
+                text-decoration: none;
+                color: #e0e1ef;
+                li{
+                    display:none;
+                    opacity:0;
+                    font-size: 3em;
+                    letter-spacing:0.4em;
+                    padding: 35px 0;
+                    margin: 10px 0;
+                    font-family: $main-font;
+                    width: 100%;
+                    transition: 0.5s ease all;
+                    
+                    &:hover{
+                        transition: 0.3s ease all;
+                        background-color: #5ea9dd80;
+                        border: 5px solid $secondary-color;
+                    }
+                }
+            }  
         }
+        
     }
     .dropdown-active{
         transition: 0.7s ease all;
         height: 100%;
         z-index: 2000;
-        position: fixed;
-        display: block;
-        li{
+        position: fixed;  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; 
+        ul a li{
             display: block;
-            animation: ease-in 0.9s linkDown;
-            -webkit-animation: ease-in 0.9s linkDown;
-            animation-delay: 0.2s;
-            -webkit-animation-delay: 0.2s;
         }
     }
     .header--nav {
@@ -144,8 +156,8 @@ header{
         .burger-active{           
                 transform: rotate(-90deg) translateY(-10px) translateX(-6px);
                 transition: 0.4s ease all; 
-                width:35px;
-                height:35px; 
+                width:69px;
+                height:69px; 
                 .burger-line{
                     border-bottom: 6px solid $secondary-color;
                     transition: 0.5 ease all;

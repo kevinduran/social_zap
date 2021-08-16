@@ -11,21 +11,25 @@ body {
   font-size: 2.5em !important;
 }
 
-@-webkit-keyframes {
-  from {
+@-webkit-keyframes fadeInRight {
+  0% {
     opacity: 0;
+    top: -20%;
   }
-  to {
-    opacity: 100%;
+  100% {
+    opacity: 1;
+    top: 0;
   }
 }
 
-@keyframes {
-  from {
+@keyframes fadeInRight {
+  0% {
     opacity: 0;
+    top: -20%;
   }
-  to {
-    opacity: 100%;
+  100% {
+    opacity: 1;
+    top: 0;
   }
 }
 
@@ -44,8 +48,8 @@ header .dropdown-nav {
   top: 0;
   background-color: rgba(233, 60, 109, 0.95);
   position: absolute;
-  -webkit-transition: 0.5s ease all;
-  transition: 0.5s ease all;
+  -webkit-transition: 0.2s ease-out;
+  transition: 0.2s ease-out;
 }
 
 header .dropdown-nav ul {
@@ -62,6 +66,7 @@ header .dropdown-nav ul a {
 
 header .dropdown-nav ul a li {
   display: none;
+  opacity: 0;
   font-size: 3em;
   letter-spacing: 0.4em;
   padding: 35px 0;
@@ -102,6 +107,28 @@ header .dropdown-active {
 
 header .dropdown-active ul a li {
   display: block;
+  position: relative;
+}
+
+header .dropdown-active .dlink1 {
+  -webkit-animation: fadeInRight 0.5s ease forwards;
+  animation: fadeInRight 0.5s ease forwards;
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+
+header .dropdown-active .dlink2 {
+  -webkit-animation: fadeInRight 0.5s ease forwards;
+  animation: fadeInRight 0.5s ease forwards;
+  -webkit-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+}
+
+header .dropdown-active .dlink3 {
+  -webkit-animation: fadeInRight 0.5s ease forwards;
+  animation: fadeInRight 0.5s ease forwards;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
 }
 
 header .header--nav {

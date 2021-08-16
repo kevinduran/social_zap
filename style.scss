@@ -25,12 +25,12 @@ body{
 @keyframes fadeInRight {
     0% {
       opacity: 0;
-      left: 20%;
+      top:-20%;
     }
   
     100% {
       opacity: 1;
-      left: 0;
+      top: 0;
     }
   }
 
@@ -47,7 +47,7 @@ header{
         top: 0;
         background-color: rgba(233, 60, 109, 0.95);
         position: absolute;
-        transition: 0.5s ease all;  
+        transition: 0.2s ease-out;  
         ul{
             width: 89%;
             text-align: center;
@@ -59,6 +59,7 @@ header{
                 color: #e0e1ef;
                 li{
                     display:none;
+                    opacity: 0;
                     font-size: 3em;
                     letter-spacing:0.4em;
                     padding: 35px 0;
@@ -66,10 +67,7 @@ header{
                     font-family: $main-font;
                     width: 100%;
                     transition: 0.5s ease all;
-                    -webkit-animation: fadeInRight 0.5s ease forwards;
-                    animation: fadeInRight 0.5s ease forwards;
-                    -webkit-animation-delay: 0.35s;
-                    animation-delay: 0.35s;
+                  
                     
                     &:hover{
                         transition: 0.3s ease all;
@@ -92,6 +90,26 @@ header{
         flex-direction: column; 
         ul a li{
             display: block;
+            position: relative;
+            
+        }
+        .dlink1{
+            -webkit-animation: fadeInRight 0.5s ease forwards;
+            animation: fadeInRight 0.5s ease forwards;
+            -webkit-animation-delay: 0.4s;
+            animation-delay: 0.4s;
+        }
+        .dlink2{
+            -webkit-animation: fadeInRight 0.5s ease forwards;
+            animation: fadeInRight 0.5s ease forwards;
+            -webkit-animation-delay: 0.7s;
+            animation-delay: 0.7s;
+        }
+        .dlink3{
+            -webkit-animation: fadeInRight 0.5s ease forwards;
+            animation: fadeInRight 0.5s ease forwards;
+            -webkit-animation-delay: 1s;
+            animation-delay: 1s;
         }
     }
     .header--nav {

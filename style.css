@@ -11,6 +11,24 @@ body {
   font-size: 2.5em !important;
 }
 
+@-webkit-keyframes {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+@keyframes {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
 header {
   height: -webkit-fit-content;
   height: -moz-fit-content;
@@ -52,8 +70,6 @@ header .dropdown-nav ul a li {
   width: 100%;
   -webkit-transition: 0.5s ease all;
   transition: 0.5s ease all;
-  -webkit-animation: linkdown 1s ease;
-          animation: linkdown 1s ease;
 }
 
 header .dropdown-nav ul a li:hover {

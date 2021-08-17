@@ -1839,4 +1839,17 @@ header .header--content .header--content__desc .header--content__button--contain
     display: flex !important;
   }
 }
+
+@media (max-width: 1300px) {
+  header .header--content .header--content__desc .header--content__desc--title {
+    font-size: 5em;
+  }
+  header .header--content .header--content__desc .header--content__desc--container {
+    padding-top: 5px;
+  }
+  header .header--content .header--content__desc {
+    font-size: 1em;
+    margin-top: 100px;
+  }
+}
 /*# sourceMappingURL=style.css.map */

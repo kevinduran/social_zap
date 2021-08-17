@@ -1450,16 +1450,7 @@ header{
 
 
 
-// +++++++++++++  969  +++++++++++++++ //
 
-
-
-//@media (max-width: 575.98px) { ... }
-
-// Small devices (landscape phones, less than 768px)
-//@media (max-width: 767.98px) { ... }
-
-// Medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) { 
     .header--nav__links{
         display: none !important;
@@ -1469,5 +1460,17 @@ header{
     }
  }
 
-// Large devices (desktops, less than 1200px)
-//@media (max-width: 1199.98px) { ... }
+ //the reason for !important needed is because sass nests classes. SPECIFICITY
+
+@media (max-width: 1300px) { 
+    header .header--content .header--content__desc .header--content__desc--title {
+        font-size: 5em;
+    }
+    header .header--content .header--content__desc .header--content__desc--container {
+        padding-top: 5px;
+    }
+    header .header--content .header--content__desc{
+        font-size: 1em;
+        margin-top:100px;
+    }
+ }

@@ -569,7 +569,7 @@ header{
                     font-size: 2.9em;
                     padding-bottom: 25px;
                     position: relative;
-                    top: 125px;
+                    top: 132px;
                     
                 }
                 p{
@@ -1460,9 +1460,9 @@ header{
     }
  }
 
- //the reason for !important needed is because sass nests classes. SPECIFICITY
+ //the reason for !important needed is because sass nests classes. SPECIFICITY!
 
-@media (max-width: 1300px) { 
+@media (max-width: 1480px) { 
     header .header--content .header--content__desc .header--content__desc--title {
         font-size: 5em;
     }
@@ -1473,4 +1473,14 @@ header{
         font-size: 1em;
         margin-top:100px;
     }
+    header .header--content .header--content__img img {
+      
+        width: 85%;
+    
+    }
+    header .header--content .header--content__desc p{
+        font-size: 1em;
+        margin-top: 10px;
+    }
+    
  }

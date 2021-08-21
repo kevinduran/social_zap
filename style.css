@@ -756,7 +756,7 @@ header .header--content .header--content__desc .header--content__button--contain
   font-size: 2.9em;
   padding-bottom: 25px;
   position: relative;
-  top: 125px;
+  top: 132px;
 }
 
 .video .video__container .video__container--text .video__container--text--second p {
@@ -1840,7 +1840,7 @@ header .header--content .header--content__desc .header--content__button--contain
   }
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1480px) {
   header .header--content .header--content__desc .header--content__desc--title {
     font-size: 5em;
   }
@@ -1850,6 +1850,13 @@ header .header--content .header--content__desc .header--content__button--contain
   header .header--content .header--content__desc {
     font-size: 1em;
     margin-top: 100px;
+  }
+  header .header--content .header--content__img img {
+    width: 85%;
+  }
+  header .header--content .header--content__desc p {
+    font-size: 1em;
+    margin-top: 10px;
   }
 }
 /*# sourceMappingURL=style.css.map */

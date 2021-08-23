@@ -359,6 +359,8 @@ header{
                 height: 400px;
                 flex: 3;
                 padding-bottom: 15px;
+                transition: 0.5s ease all;
+
                 img{
                     max-width: 100%;
                     height: 100%;
@@ -1491,6 +1493,15 @@ header{
         transition: 0.5s ease all;
 
     }
+    .how .how--container .how--conatiner__unit .num--container .num {
+        font-size: 15em;
+        top: 280px;
+    }
+    .how .how--container .how--conatiner__unit .how--sub__unit {
+        height: 300px;
+        font-size: 0.9em;
+        transition: 0.5s ease all;
+    }
     
  }
  @media (max-width: 1180px) { 
@@ -1500,8 +1511,12 @@ header{
         height: 55px;  
         width: 88%;
     }
-    
+    .how .how--container .how--conatiner__unit .how--sub__unit {
+        height: 300px;
+        font-size: 0.8em;
+    }
  }
+ 
  @media (max-width: 991.98px) { 
     .header--nav__links{
         display: none !important;
@@ -1521,6 +1536,32 @@ header{
         -webkit-transition: 0.5s ease all;
         transition: 0.5s ease all;
     }
+    .how .how--container .how--conatiner__unit {
+        flex-direction: column;
+    }
+    .how .how--container .how--conatiner__unit {
+        margin: 0 auto;
+    }
+    .how .how--container {
+        margin: 0 auto;
+    }
+    .how .how--container .how--conatiner__unit .num--container .num {
+        font-size: 20em;
+        top: 280px;
+    }
+    .how .how--container .how--conatiner__unit .how--sub__2 {
+        margin: 0 auto;
+        width: 69%;
+    }
+    
+    .how .how--container .how--conatiner__unit .num--container .num {
+        font-size: 25em;
+        top: 150px;
+    }
+    .how .how--container .how--conatiner__unit .how--sub__3 {
+       
+        font-size: 1.1em;
+    }
     
  }
  @media (max-width: 920px) { 
@@ -1533,6 +1574,7 @@ header{
     header .header--content .header--content__desc .header--content__desc--title {
         font-size: 7em ;
     }
+    
  }
 
  @media (max-width: 740px) { 

@@ -358,7 +358,7 @@ header{
             .how--sub__unit{
                 height: 400px;
                 flex: 3;
-                padding-bottom: 15px;
+                padding-bottom: 30px;
                 transition: 0.5s ease all;
 
                 img{
@@ -1536,6 +1536,19 @@ header{
         -webkit-transition: 0.5s ease all;
         transition: 0.5s ease all;
     }
+    
+    
+ }
+ @media (max-width: 920px) { 
+    header .header--content {
+        display: flex;
+        flex-direction: column-reverse;
+       
+    }
+    
+    header .header--content .header--content__desc .header--content__desc--title {
+        font-size: 7em ;
+    }
     .how .how--container .how--conatiner__unit {
         flex-direction: column;
     }
@@ -1555,26 +1568,43 @@ header{
     }
     
     .how .how--container .how--conatiner__unit .num--container .num {
-        font-size: 25em;
-        top: 150px;
+        font-size: 20em;
     }
     .how .how--container .how--conatiner__unit .how--sub__3 {
-       
         font-size: 1.1em;
     }
-    
- }
- @media (max-width: 920px) { 
-    header .header--content {
-        display: flex;
+    .how .how--container .how--conatiner__unit .move--left {    
+        left: 0px;
+        position: relative;
+    }
+    .how .how--container .how--conatiner__unit .move--right {
+        position: relative;
+        right: 0px;
+    }
+    .how .how--container .how--conatiner__unit {
+        padding: 0px; 
+        margin: 0px;
+    }
+    .how .how--container  .how--container__two {
         flex-direction: column-reverse;
-       
     }
-    
-    header .header--content .header--content__desc .header--content__desc--title {
-        font-size: 7em ;
+    .how .how--container .how--conatiner__unit .num--container .num3 {
+        font-size: 20em;
     }
-    
+    .how .how--container .how--conatiner__unit .num--container .num4 {
+        font-size: 20em;
+    }  
+    .how .how--container .how--conatiner__unit .desc--container .desc {
+        width:auto;
+        padding: 28px;
+    }
+    .how .how--container .how--conatiner__unit .how--sub__unit {
+        height: 300px;
+        font-size: 0.9em;
+    }
+    .how .how--container .how--conatiner__unit .desc--container--left .desc {
+        width: fit-content !important;
+    }
  }
 
  @media (max-width: 740px) { 

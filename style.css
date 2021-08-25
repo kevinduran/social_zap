@@ -281,7 +281,6 @@ header .header--content .header--content__img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  overflow: hidden;
 }
 
 header .header--content .header--content__img img {

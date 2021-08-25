@@ -670,7 +670,7 @@ header .header--content .header--content__desc .header--content__button--contain
   text-transform: uppercase;
   font-weight: bolder;
   position: relative;
-  top: 30px;
+  top: 35px;
 }
 
 .how .how--container .how--conatiner__unit .desc--container .abra {
@@ -1889,6 +1889,17 @@ header .header--content .header--content__desc .header--content__button--contain
     -webkit-transition: 0.5s ease all;
     transition: 0.5s ease all;
   }
+  .video .video__container {
+    font-size: 0.7em;
+  }
+  .video .video__container .video__container--text .video__container--text--second {
+    height: 100%;
+  }
+  .video .product__container .product__container--text {
+    top: -50px;
+    position: relative;
+    font-size: 0.8em;
+  }
 }
 
 @media (max-width: 1180px) {
@@ -2018,6 +2029,29 @@ header .header--content .header--content__desc .header--content__button--contain
   .how .how--container .how--container__three {
     position: relative;
     top: -200px;
+  }
+  .video {
+    margin-top: -13em;
+  }
+  .video .video__container {
+    display: block;
+  }
+  .video .product__container {
+    display: block;
+  }
+  header .header--content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    z-index: -1;
+    position: relative;
+    top: 40px;
   }
 }
 

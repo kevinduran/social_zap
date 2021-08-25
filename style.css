@@ -523,6 +523,8 @@ header .header--content .header--content__desc .header--content__button--contain
   opacity: 0;
   position: relative;
   top: 300px;
+  -webkit-transition: 0.5s ease all;
+  transition: 0.5s ease all;
 }
 
 .how .how--container .how--conatiner__unit .num--container .num2, .how .how--container .how--conatiner__unit .num--container .num3, .how .how--container .how--conatiner__unit .num--container .num4, .how .how--container .how--conatiner__unit .num--container .num5, .how .how--container .how--conatiner__unit .num--container .num6 {
@@ -1922,6 +1924,10 @@ header .header--content .header--content__desc .header--content__button--contain
     -webkit-transition: 0.5s ease all;
     transition: 0.5s ease all;
   }
+  .how .how--container .how--conatiner__unit .how--sub__unit {
+    height: 300px;
+    font-size: 0.7em;
+  }
 }
 
 @media (max-width: 920px) {
@@ -1988,17 +1994,31 @@ header .header--content .header--content__desc .header--content__button--contain
     font-size: 20em;
   }
   .how .how--container .how--conatiner__unit .desc--container .desc {
-    width: auto;
-    padding: 28px;
-  }
-  .how .how--container .how--conatiner__unit .how--sub__unit {
-    height: 300px;
-    font-size: 0.9em;
-  }
-  .how .how--container .how--conatiner__unit .desc--container--left .desc {
     width: -webkit-fit-content !important;
     width: -moz-fit-content !important;
     width: fit-content !important;
+    padding: 28px;
+    font-size: 1.69em;
+  }
+  .how .how--container .how--conatiner__unit .desc--container .desc--title {
+    top: 40px;
+  }
+  .how .how--container .how--conatiner__unit .how--sub__unit {
+    height: 300px;
+    font-size: 0.8em;
+  }
+  .how .how--container {
+    margin: 0 auto;
+    position: relative;
+    top: -100px;
+  }
+  .how .how--container .how--container__two {
+    position: relative;
+    top: -50px;
+  }
+  .how .how--container .how--container__three {
+    position: relative;
+    top: -200px;
   }
 }
 
@@ -2030,6 +2050,26 @@ header .header--content .header--content__desc .header--content__button--contain
     font-size: 0.8em;
     position: relative;
     top: -200px;
+  }
+  .how .how--container .how--conatiner__unit .how--sub__unit {
+    height: 300px;
+    font-size: 0.69em;
+  }
+}
+
+@media (max-width: 500px) {
+  .how .how--container .how--conatiner__unit .num--container .num {
+    font-size: 14em;
+    top: 280px;
+    padding-bottom: 15px;
+  }
+  .how .how--container .how--conatiner__unit .desc--container .desc {
+    padding: 0 28px;
+    font-size: 1.69em;
+  }
+  .how .how--container .how--container__three {
+    position: relative;
+    top: -100px;
   }
 }
 /*# sourceMappingURL=style.css.map */

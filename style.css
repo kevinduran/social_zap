@@ -50,6 +50,7 @@ header .dropdown-nav {
   position: absolute;
   -webkit-transition: 0.2s ease-out;
   transition: 0.2s ease-out;
+  z-index: 5;
 }
 
 header .dropdown-nav ul {
@@ -271,7 +272,7 @@ header .header--content {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  z-index: -1;
+  z-index: 4;
 }
 
 header .header--content .header--content__img {
@@ -1953,6 +1954,9 @@ header .header--content .header--content__desc .header--content__button--contain
   header .header--content .header--content__desc .header--content__desc--title {
     font-size: 7em;
   }
+  header .header--content .header--content__desc .header--content__desc--container .header--content__desc--subtitle {
+    font-size: 1.5em;
+  }
   .how .how--container .how--conatiner__unit {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2042,19 +2046,12 @@ header .header--content .header--content__desc .header--content__button--contain
   .video .product__container {
     display: block;
   }
-  header .header--content {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    z-index: -1;
+  .video .video__container .video__container--text {
     position: relative;
-    top: 40px;
+    top: -25px;
+  }
+  header .header--content {
+    z-index: 1;
   }
   .video .video__container .video__container--text .video__container--text--second {
     width: 100%;
@@ -2063,6 +2060,7 @@ header .header--content .header--content__desc .header--content__button--contain
   .video .video__container .video__container--text .video__container--text--second h2 {
     margin: 0 auto;
     font-size: 5em;
+    position: relative;
   }
   .video .video__container .video__container--text .video__container--text--second p {
     font-size: 2.2em;
@@ -2090,7 +2088,7 @@ header .header--content .header--content__desc .header--content__button--contain
     width: 100%;
   }
   .video .product__container .product__container--text .product__container--text--second h2 {
-    font-size: 3.2em;
+    font-size: 4em;
   }
   .video .product__container .product__container--text .product__container--text--second {
     height: 69%;
@@ -2098,6 +2096,15 @@ header .header--content .header--content__desc .header--content__button--contain
   }
   .video .product__container .product__container--text {
     top: -25px;
+  }
+  .video .product__container .product__container--product {
+    width: 100%;
+  }
+  .video .product__container .product__container--text .product__container--text--second p {
+    font-size: 2em;
+  }
+  .video .product__container .product__container--text .product__container--text--second .draw-border {
+    width: 45%;
   }
 }
 
@@ -2115,6 +2122,20 @@ header .header--content .header--content__desc .header--content__button--contain
   .video .video__container .video__container--text .video__container--text--second p {
     margin: 0 auto;
     font-size: 1.7em;
+  }
+  .video .product__container .product__container--text .product__container--text--second h2 {
+    font-size: 2.5em;
+    top: 131px;
+  }
+  .video .video__container .video__container--text .video__container--text--second p {
+    margin: 0 auto;
+    font-size: 1.7em;
+  }
+  .video .product__container .product__container--text .product__container--text--second p {
+    font-size: 1.6em;
+  }
+  video .product__container .product__container--text .product__container--text--second .draw-border {
+    width: 50%;
   }
 }
 

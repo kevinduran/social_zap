@@ -1741,7 +1741,7 @@ header{
     .video .product__container .product__container--text .product__container--text--second p {
         font-size: 1.6em;
     }
-    video .product__container .product__container--text .product__container--text--second .draw-border {
+    .video .product__container .product__container--text .product__container--text--second .draw-border {
         width: 50%;
     }
     
@@ -1775,10 +1775,15 @@ header{
         font-size: 0.69em;
     }
     .video .video__container .video__container--text .video__container--text--second .draw-border {
-        font-size: 1.7em;
+        font-size: 1.35em;
         width: 100%;
     }
-  
+   
+    .video .product__container .product__container--text .product__container--text--second .draw-border {
+        width: 85%;
+        max-width: 85%;
+
+    }
     
    
  }

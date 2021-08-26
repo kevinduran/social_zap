@@ -2053,11 +2053,55 @@ header .header--content .header--content__desc .header--content__button--contain
     position: relative;
     top: 40px;
   }
+  .video .video__container .video__container--text .video__container--text--second {
+    width: 100%;
+    text-align: left;
+  }
+  .video .video__container .video__container--text .video__container--text--second h2 {
+    margin: 0 auto;
+    font-size: 5em;
+  }
+  .video .video__container .video__container--text .video__container--text--second p {
+    font-size: 2.2em;
+  }
+  .video .video__container .video__container--text .video__container--text--second .draw-border {
+    font-size: 1.7em;
+    width: 46%;
+  }
+  .video .product__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    overflow: hidden;
+  }
+  .video .product__container .product__container--text {
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
+  .video .product__container .product__container--text {
+    width: 100%;
+  }
 }
 
 @media (max-width: 740px) {
   header .header--content .header--content__desc .header--content__desc--title {
     font-size: 5em;
+  }
+}
+
+@media (max-width: 610px) {
+  .video .video__container .video__container--text .video__container--text--second h2 {
+    margin: 0 auto;
+    font-size: 3em;
+  }
+  .video .video__container .video__container--text .video__container--text--second p {
+    margin: 0 auto;
+    font-size: 1.7em;
   }
 }
 
@@ -2087,6 +2131,10 @@ header .header--content .header--content__desc .header--content__button--contain
   .how .how--container .how--conatiner__unit .how--sub__unit {
     height: 300px;
     font-size: 0.69em;
+  }
+  .video .video__container .video__container--text .video__container--text--second .draw-border {
+    font-size: 1.7em;
+    width: 100%;
   }
 }
 

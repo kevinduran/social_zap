@@ -1614,8 +1614,11 @@ header{
     }  
     .how .how--container .how--conatiner__unit .desc--container .desc {
         width:fit-content !important;
-        padding: 28px;
+        padding:0 28px;
         font-size: 1.69em;
+    }
+    .desc{
+        padding: 0 28px !important;
     }
     .how .how--container .how--conatiner__unit .desc--container .desc--title {
     
@@ -1638,6 +1641,7 @@ header{
         position: relative;
         top: -200px;
     }
+   
     .video {
         margin-top: -13em;   
     }
@@ -1688,6 +1692,17 @@ header{
     }
     .video .product__container .product__container--text {
         width: 100%;
+    }
+    .video .product__container .product__container--text .product__container--text--second h2 {
+        font-size: 3.2em;
+    }
+    .video .product__container .product__container--text .product__container--text--second {
+        height: 69%;
+        width: 100%;
+    }
+    .video .product__container .product__container--text {
+        top: -25px;
+
     }
 }    
 

@@ -2007,8 +2007,11 @@ header .header--content .header--content__desc .header--content__button--contain
     width: -webkit-fit-content !important;
     width: -moz-fit-content !important;
     width: fit-content !important;
-    padding: 28px;
+    padding: 0 28px;
     font-size: 1.69em;
+  }
+  .desc {
+    padding: 0 28px !important;
   }
   .how .how--container .how--conatiner__unit .desc--container .desc--title {
     top: 40px;
@@ -2085,6 +2088,16 @@ header .header--content .header--content__desc .header--content__button--contain
   }
   .video .product__container .product__container--text {
     width: 100%;
+  }
+  .video .product__container .product__container--text .product__container--text--second h2 {
+    font-size: 3.2em;
+  }
+  .video .product__container .product__container--text .product__container--text--second {
+    height: 69%;
+    width: 100%;
+  }
+  .video .product__container .product__container--text {
+    top: -25px;
   }
 }
 

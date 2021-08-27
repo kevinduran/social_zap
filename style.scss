@@ -678,7 +678,7 @@ header{
             flex-basis: 100%;
             flex: 2;
             overflow: hidden;
-            max-height:569px
+            max-height:500px
         }
         .product__container--text{
             display: flex;
@@ -798,6 +798,7 @@ header{
 .form{
     font-family: $main-font;
     background-color: #99c5e8a6;
+    border-radius: 2%;
     margin: 100px 25px;
     padding: 15px;
     height: 58vh;
@@ -1781,6 +1782,11 @@ header{
     .video .product__container .product__container--text .product__container--text--second .draw-border {
         width: 50%;
     }
+    .form{
+        
+        margin: 100px 25px 0;
+    }
+        
     .form .form__container {
         font-size: 0.8em;
     }
@@ -1791,7 +1797,8 @@ header{
     }
     .footer .subTitle {
         position: relative;
-        right: -18px;
+        // right: -18px;
+        right:0;
     }
     .footer .footer__right .footer__right--container {
        
@@ -1886,6 +1893,9 @@ header{
     }
     header .dropdown-nav ul {
         top: -69px;
+    }
+    .product__container--product{
+        max-height:300px
     }
    
     

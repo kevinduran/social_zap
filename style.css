@@ -883,7 +883,7 @@ header .header--content .header--content__desc .header--content__button--contain
       -ms-flex: 2;
           flex: 2;
   overflow: hidden;
-  max-height: 569px;
+  max-height: 500px;
 }
 
 .video .product__container .product__container--text {
@@ -1025,6 +1025,7 @@ header .header--content .header--content__desc .header--content__button--contain
 .form {
   font-family: "Krub", sans-serif;
   background-color: #99c5e8a6;
+  border-radius: 2%;
   margin: 100px 25px;
   padding: 15px;
   height: 58vh;
@@ -2185,6 +2186,9 @@ header .header--content .header--content__desc .header--content__button--contain
   .video .product__container .product__container--text .product__container--text--second .draw-border {
     width: 50%;
   }
+  .form {
+    margin: 100px 25px 0;
+  }
   .form .form__container {
     font-size: 0.8em;
   }
@@ -2200,7 +2204,7 @@ header .header--content .header--content__desc .header--content__button--contain
   }
   .footer .subTitle {
     position: relative;
-    right: -18px;
+    right: 0;
   }
   .footer .footer__right .footer__right--container {
     text-align: left;
@@ -2288,6 +2292,9 @@ header .header--content .header--content__desc .header--content__button--contain
   }
   header .dropdown-nav ul {
     top: -69px;
+  }
+  .product__container--product {
+    max-height: 300px;
   }
 }
 

@@ -2283,6 +2283,9 @@ header .header--content .header--content__desc .header--content__button--contain
     position: relative;
     right: 15px;
   }
+  header .dropdown-nav ul {
+    top: -69px;
+  }
 }
 
 @media (max-width: 400px) {

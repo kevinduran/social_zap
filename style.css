@@ -2202,6 +2202,9 @@ header .header--content .header--content__desc .header--content__button--contain
     position: relative;
     right: -18px;
   }
+  .footer .footer__right .footer__right--container {
+    text-align: left;
+  }
 }
 
 @media (max-width: 560px) {

@@ -2267,7 +2267,10 @@ header .header--content .header--content__desc .header--content__button--contain
     top: -100px;
   }
   .form .form__container {
-    font-size: 0.69em;
+    font-size: 0.8em;
+  }
+  .form {
+    height: 69vh;
   }
 }
 

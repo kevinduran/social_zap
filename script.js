@@ -175,54 +175,54 @@ gsap.to('.fa-linkedin',{
 });
 gsap.to('.footerlink--1',{
     opacity:1,
-    delay: 1.2,
-    duration:0.6,
+    delay: 0.5,
+    duration:0.4,
     scrollTrigger: '.footerlink--1',
     x:25
 });
 gsap.to('.footerlink--2',{
     opacity:1,
-    delay: 1.5,
-    duration:0.6,
+    delay: 0.7,
+    duration:0.4,
     scrollTrigger: '.footerlink--1',
     x:25
 });
 gsap.to('.footerlink--3',{
     opacity:1,
-    delay: 1.8,
-    duration:0.6,
+    delay: 0.9,
+    duration:0.4,
     scrollTrigger: '.footerlink--1',
     x:25
 });
 gsap.to('.form--2',{
     opacity:1,
     delay: 0.9,
-    duration:0.6,
+    duration:0.4,
     y:-50
 });
 gsap.to('.price--container-one',{
     opacity:1,
     delay: 0.9,
-    duration:0.6,
+    duration:0.4,
     y:-50
 });
 gsap.to('.price--container-two',{
     opacity:1,
     delay: 1.2,
-    duration:0.6,
+    duration:0.4,
     y:-50
 });
 gsap.to('.image--one',{
     opacity:1,
     delay: 0.9,
-    duration:0.6,
+    duration:0.4,
     y:-50
 });
 gsap.to('.image--two',{
     opacity:1,
     delay: 0.69,
     scrollTrigger: '.image--two',
-    duration:0.6,
+    duration:0.4,
     y:-50
 });
 gsap.to('.wst__header--title-top',{

@@ -1913,6 +1913,12 @@ header .header--content .header--content__desc .header--content__button--contain
     height: 300px;
     font-size: 0.8em;
   }
+  .footer .footer__left .footer__left--container h2 {
+    font-size: 4em;
+  }
+  .footer .footer__left .footer__left--container h2 {
+    text-align: center;
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -2126,11 +2132,33 @@ header .header--content .header--content__desc .header--content__button--contain
     width: 70%;
     margin: 0 auto;
   }
+  .footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer .footer__left .footer__left--container h2 {
+    font-size: 6.9em;
+  }
+  .footer .footer__right .footer__right--container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-top: 5em;
+  }
 }
 
 @media (max-width: 740px) {
   header .header--content .header--content__desc .header--content__desc--title {
     font-size: 5em;
+  }
+  .footer__left--container {
+    font-size: 0.8em;
+    -webkit-transition: 0.5s ease all;
+    transition: 0.5s ease all;
   }
 }
 
@@ -2159,6 +2187,20 @@ header .header--content .header--content__desc .header--content__button--contain
   }
   .form .form__container {
     font-size: 0.8em;
+  }
+  .footer .footer__right .footer__right--container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .footer .subTitle {
+    position: relative;
+    right: -18px;
   }
 }
 
@@ -2205,6 +2247,9 @@ header .header--content .header--content__desc .header--content__button--contain
     height: 40px;
     width: auto;
   }
+  .footer .footer__left .footer__left--container h2 {
+    font-size: 4.5em;
+  }
 }
 
 @media (max-width: 500px) {
@@ -2223,6 +2268,18 @@ header .header--content .header--content__desc .header--content__button--contain
   }
   .form .form__container {
     font-size: 0.69em;
+  }
+}
+
+@media (max-width: 400px) {
+  .form .form__container .column .column--second h2 {
+    font-size: 2em;
+  }
+  .footer .footer__left .footer__left--container div {
+    font-size: 0.8em;
+  }
+  .footer .footer__left .footer__left--container h2 {
+    font-size: 3.3em;
   }
 }
 /*# sourceMappingURL=style.css.map */

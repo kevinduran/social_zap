@@ -2106,6 +2106,26 @@ header .header--content .header--content__desc .header--content__button--contain
   .video .product__container .product__container--text .product__container--text--second .draw-border {
     width: 45%;
   }
+  .form .form__container {
+    -webkit-box-align: unset;
+        -ms-flex-align: unset;
+            align-items: unset;
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .form .form__container .column .column--second h2 {
+    text-align: left;
+  }
+  .form .form__container .column .column--second p {
+    text-align: left;
+  }
+  .form .form__container .column .column--second {
+    width: 70%;
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 740px) {
@@ -2136,6 +2156,9 @@ header .header--content .header--content__desc .header--content__button--contain
   }
   .video .product__container .product__container--text .product__container--text--second .draw-border {
     width: 50%;
+  }
+  .form .form__container {
+    font-size: 0.8em;
   }
 }
 
@@ -2174,6 +2197,14 @@ header .header--content .header--content__desc .header--content__button--contain
     width: 85%;
     max-width: 85%;
   }
+  .form .form__container .column .form__container--form--second input {
+    height: 40px;
+  }
+  .form .form__container .column .form__container--form--second .draw-border {
+    max-width: 94%;
+    height: 40px;
+    width: auto;
+  }
 }
 
 @media (max-width: 500px) {
@@ -2189,6 +2220,9 @@ header .header--content .header--content__desc .header--content__button--contain
   .how .how--container .how--container__three {
     position: relative;
     top: -100px;
+  }
+  .form .form__container {
+    font-size: 0.69em;
   }
 }
 /*# sourceMappingURL=style.css.map */

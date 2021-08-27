@@ -1711,6 +1711,21 @@ header{
     .video .product__container .product__container--text .product__container--text--second .draw-border {
         width: 45%;
     }
+    .form .form__container {
+        align-items: unset;
+        width: 100%;
+        flex-direction: column;
+    }
+    .form .form__container .column .column--second h2 {
+        text-align: left;
+    }
+    .form .form__container .column .column--second p {
+        text-align: left;
+    }
+    .form .form__container .column .column--second {
+        width: 70%;
+        margin: 0 auto;
+    }
 }    
 
  @media (max-width: 740px) { 
@@ -1743,6 +1758,9 @@ header{
     }
     .video .product__container .product__container--text .product__container--text--second .draw-border {
         width: 50%;
+    }
+    .form .form__container {
+        font-size: 0.8em;
     }
     
  }
@@ -1784,6 +1802,16 @@ header{
         max-width: 85%;
 
     }
+    .form .form__container .column .form__container--form--second input {
+        height: 40px;
+      
+    }
+    .form .form__container .column .form__container--form--second .draw-border {
+     
+        max-width: 94%;
+        height: 40px;
+        width:auto;
+    }
     
    
  }
@@ -1802,6 +1830,9 @@ header{
     .how .how--container .how--container__three {
         position: relative;
         top: -100px;
+    }
+    .form .form__container {
+        font-size: 0.69em;
     }
     
 

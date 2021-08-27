@@ -1,13 +1,13 @@
 gsap.to('.header--content__img--img',{
     opacity:1, 
-    duration:1,
+    duration:0.5,
     delay:0.7,
      y:-50
 });
 gsap.to('.header--content__desc',{
     opacity:1, 
     delay:0.9,
-    duration:1,
+    duration:0.5,
      y:-50
 });
 gsap.to('.num1',{
@@ -175,21 +175,21 @@ gsap.to('.fa-linkedin',{
 });
 gsap.to('.footerlink--1',{
     opacity:1,
-    delay: 0.7,
+    delay: 1,
     duration:0.4,
     scrollTrigger: '.footerlink--1',
     x:25
 });
 gsap.to('.footerlink--2',{
     opacity:1,
-    delay: 0.9,
+    delay: 1.3,
     duration:0.4,
     scrollTrigger: '.footerlink--1',
     x:25
 });
 gsap.to('.footerlink--3',{
     opacity:1,
-    delay: 1.1,
+    delay: 1.5,
     duration:0.4,
     scrollTrigger: '.footerlink--1',
     x:25

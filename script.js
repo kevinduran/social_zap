@@ -12,43 +12,40 @@ gsap.to('.header--content__desc',{
 });
 gsap.to('.num1',{
     opacity:1, 
-    delay:0.2,
-    duration:0.5,
+    duration:0.3,
     scrollTrigger: '.num1',
      y:-210,
 });
 gsap.to('.num2',{
     opacity:1, 
-    delay:0.5,
-    duration:0.5,
+    delay:0.2,
+    duration:0.3,
     scrollTrigger: '.num2',
      y:-210
 });
 gsap.to('.num3',{
     opacity:1, 
-    delay:0.2,
-    duration:0.5,
+    duration:0.3,
     scrollTrigger: '.num3',
      y:-210
 });
 gsap.to('.num4',{
     opacity:1, 
-    delay:0.5,
-    duration:0.5,
+    delay:0.2,
+    duration:0.3,
     scrollTrigger: '.num4',
      y:-210
 });
 gsap.to('.num5',{
     opacity:1, 
-    delay:0.2,
-    duration:0.5,
+    duration:0.3,
     scrollTrigger: '.num5',
      y:-210
 });
 gsap.to('.num6',{
     opacity:1, 
-    delay:0.5,
-    duration:0.5,
+    delay:0.2,
+    duration:0.3,
     scrollTrigger: '.num6',
      y:-210
 });

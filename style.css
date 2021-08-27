@@ -2294,7 +2294,10 @@ header .header--content .header--content__desc .header--content__button--contain
     top: -69px;
   }
   .product__container--product {
-    max-height: 300px;
+    max-height: 200px;
+  }
+  .video .product__container .product__container--product {
+    max-height: 200px;
   }
 }
 

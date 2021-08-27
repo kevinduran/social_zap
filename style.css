@@ -2302,6 +2302,21 @@ header .header--content .header--content__desc .header--content__button--contain
   .footer {
     margin: 6em 0;
   }
+  .how .how--container .how--conatiner__unit .how--sub__2 {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border: 5px solid #e53b6a;
+    border-radius: 5%;
+    width: 200px !important;
+    height: 264px !important;
+  }
 }
 
 @media (max-width: 400px) {

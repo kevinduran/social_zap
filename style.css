@@ -300,8 +300,7 @@ header .header--content .header--content__desc {
           flex: 2;
   padding: 15px;
   position: relative;
-  top: -65px;
-  opacity: 0;
+  top: -69px;
   font-size: 1.1em;
   -webkit-transition: 0.5s ease all;
   transition: 0.5s ease all;

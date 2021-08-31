@@ -33,6 +33,24 @@ body {
   }
 }
 
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 header {
   height: -webkit-fit-content;
   height: -moz-fit-content;
@@ -304,6 +322,8 @@ header .header--content .header--content__desc {
   font-size: 1.1em;
   -webkit-transition: 0.5s ease all;
   transition: 0.5s ease all;
+  -webkit-animation: fadeIn 1s ease forwards;
+  animation: fadeIn 1s ease forwards;
 }
 
 header .header--content .header--content__desc .header--content__desc--title {

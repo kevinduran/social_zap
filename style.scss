@@ -33,6 +33,15 @@ body{
       top: 0;
     }
   }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
 
 // ---------------------------- HEADER -------------------------------//
 
@@ -209,6 +218,7 @@ header{
         justify-content: center;
         align-items: center;
         z-index: 4;
+        
         .header--content__img {
             flex: 2;
             display: flex;
@@ -229,7 +239,8 @@ header{
             top: -69px;
             font-size: 1.1em;
             transition: 0.5s ease all;
-            
+            -webkit-animation: fadeIn 1s ease forwards;
+            animation: fadeIn 1s ease forwards;
             .header--content__desc--title{
                 text-align: center;
                 font-family: 'Audiowide', cursive;    

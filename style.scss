@@ -690,6 +690,10 @@ header{
             overflow: hidden;
             max-height:500px;
             justify-content:center;
+            img{
+                max-width: 100%;
+    height: auto;
+            }
         }
         .product__container--text{
             display: flex;
@@ -1912,12 +1916,8 @@ header{
     header .dropdown-nav ul {
         top: -69px;
     }
-    .product__container--product{
-        max-height:200px
-    }
-   
+    
     .video .product__container .product__container--product {
-      
         max-height: 200px;
     }
     .footer {

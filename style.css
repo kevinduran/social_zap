@@ -908,6 +908,11 @@ header .header--content .header--content__desc .header--content__button--contain
           justify-content: center;
 }
 
+.video .product__container .product__container--product img {
+  max-width: 100%;
+  height: auto;
+}
+
 .video .product__container .product__container--text {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2321,9 +2326,6 @@ header .header--content .header--content__desc .header--content__button--contain
   }
   header .dropdown-nav ul {
     top: -69px;
-  }
-  .product__container--product {
-    max-height: 200px;
   }
   .video .product__container .product__container--product {
     max-height: 200px;

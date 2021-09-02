@@ -376,6 +376,8 @@ header .header--content .header--content__desc .header--content__button--contain
 
 header .header--content .header--content__desc .header--content__button--container button {
   font-family: 'Krub', sans-serif;
+  font-weight: 500;
+  font-style: italic;
   background: none;
   border: none;
   cursor: pointer;

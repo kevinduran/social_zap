@@ -1,6 +1,9 @@
 body {
   background-color: #ebe8e83d;
   margin: 25px;
+  font-family: "Krub", sans-serif;
+  font-weight: 900;
+  font-style: italic;
 }
 
 .bold {

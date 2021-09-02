@@ -1403,7 +1403,7 @@ header{
                 a{
                     text-decoration: none;
                     color: rgb(51, 49, 49);
-                    padding: 15px;
+                    padding: 15px 0;
                     font-size: 1.2em;
                     opacity: 1;
                     &:hover{
@@ -1421,7 +1421,7 @@ header{
                 a{
                     text-decoration: none;
                     color: rgb(51, 49, 49);
-                    padding: 15px;
+                    padding: 15px 0;
                     font-size: 1.2em;
                     opacity: 1;
                     &:hover{
@@ -1884,6 +1884,9 @@ header{
     .how .how--container .how--container__three {
         position: relative;
         top: -100px;
+    }
+    .footerlink--1, .footerlink--2, .footerlink--3, .footerlink--4, .footerlink--5{
+        padding: 15px 20px !important;
     }
     .form .form__container {
         font-size: 0.8em;

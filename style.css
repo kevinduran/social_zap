@@ -1795,7 +1795,7 @@ header .header--content .header--content__desc .header--content__button--contain
 .footer .footer__right .footer__right--container .footer__right--container--sub1 a {
   text-decoration: none;
   color: #333131;
-  padding: 15px;
+  padding: 15px 0;
   font-size: 1.2em;
   opacity: 1;
 }
@@ -1821,7 +1821,7 @@ header .header--content .header--content__desc .header--content__button--contain
 .footer .footer__right .footer__right--container .footer__right--container--sub2 a {
   text-decoration: none;
   color: #333131;
-  padding: 15px;
+  padding: 15px 0;
   font-size: 1.2em;
   opacity: 1;
 }
@@ -2294,6 +2294,9 @@ header .header--content .header--content__desc .header--content__button--contain
   .how .how--container .how--container__three {
     position: relative;
     top: -100px;
+  }
+  .footerlink--1, .footerlink--2, .footerlink--3, .footerlink--4, .footerlink--5 {
+    padding: 15px 20px !important;
   }
   .form .form__container {
     font-size: 0.8em;

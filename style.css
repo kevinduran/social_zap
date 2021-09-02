@@ -903,6 +903,9 @@ header .header--content .header--content__desc .header--content__button--contain
           flex: 2;
   overflow: hidden;
   max-height: 500px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .video .product__container .product__container--text {

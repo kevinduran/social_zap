@@ -688,7 +688,8 @@ header{
             flex-basis: 100%;
             flex: 2;
             overflow: hidden;
-            max-height:500px
+            max-height:500px;
+            justify-content:center;
         }
         .product__container--text{
             display: flex;

@@ -3,7 +3,7 @@ body {
   margin: 25px;
   font-family: "Krub", sans-serif;
   font-weight: 900;
-  font-style: italic;
+  font-style: initial;
 }
 
 .bold {

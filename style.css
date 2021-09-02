@@ -2,7 +2,7 @@ body {
   background-color: #ebe8e83d;
   margin: 25px;
   font-family: "Krub", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   font-style: italic;
 }
 
@@ -607,6 +607,8 @@ header .header--content .header--content__desc .header--content__button--contain
 
 .how .how--container .how--conatiner__unit .desc--container button {
   font-family: 'Krub', sans-serif;
+  font-weight: 600;
+  font-style: italic;
   background: none;
   border: none;
   cursor: pointer;
@@ -807,6 +809,8 @@ header .header--content .header--content__desc .header--content__button--contain
 
 .video .video__container .video__container--text .video__container--text--second button {
   font-family: 'Krub', sans-serif;
+  font-weight: 600;
+  font-style: italic;
   background: none;
   border: none;
   cursor: pointer;
@@ -975,6 +979,8 @@ header .header--content .header--content__desc .header--content__button--contain
 
 .video .product__container .product__container--text .product__container--text--second button {
   font-family: 'Krub', sans-serif;
+  font-weight: 500;
+  font-style: italic;
   background: none;
   border: none;
   cursor: pointer;
@@ -1163,6 +1169,8 @@ header .header--content .header--content__desc .header--content__button--contain
 
 .form .form__container .column .form__container--form--second button {
   font-family: 'Krub', sans-serif;
+  font-weight: 500;
+  font-style: italic;
   border: none;
   cursor: pointer;
   letter-spacing: 0.2rem;
@@ -1377,6 +1385,8 @@ header .header--content .header--content__desc .header--content__button--contain
 
 .price .price--container button {
   font-family: 'Krub', sans-serif;
+  font-weight: 500;
+  font-style: italic;
   border: none;
   cursor: pointer;
   letter-spacing: 0.2rem;
@@ -1564,6 +1574,8 @@ header .header--content .header--content__desc .header--content__button--contain
 
 .wst .wst__header .wst__header--title button {
   font-family: 'Krub', sans-serif;
+  font-weight: 500;
+  font-style: italic;
   border: none;
   cursor: pointer;
   letter-spacing: 0.2rem;

@@ -134,7 +134,9 @@ header{
         .header--nav__logo{
             text-decoration: none;
             .header--nav__logo--title{
-                font-family: 'Audiowide', cursive;            
+                font-family: 'Audiowide', cursive; 
+                font-weight:900;
+                font-style:initial;           
                 font-size: 2em;
                 color: $font-color;
             }
@@ -246,7 +248,9 @@ header{
             animation: fadeIn 1s ease forwards;
             .header--content__desc--title{
                 text-align: center;
-                font-family: 'Audiowide', cursive;    
+                font-family: 'Audiowide', cursive; 
+                font-weight:900;
+                font-style:initial;   
                 font-size: 7em;        
                 color: $font-color;
                 transition: 0.5s ease all;
@@ -1465,7 +1469,9 @@ header{
                 }
             } 
             h2{
-                font-family: 'Audiowide', cursive;    
+                font-family: 'Audiowide', cursive;
+                font-weight:900;
+                font-style:initial;    
                 font-size: 5em;
                 margin: 0 auto;
             }

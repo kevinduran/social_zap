@@ -1,3 +1,27 @@
+//------------------ NAVIGATION
+gsap.to('.one--link',{
+    opacity:1, 
+    delay:0.1,
+    duration:0.6,
+     y:-30
+});
+gsap.to('.two--link',{
+    opacity:1, 
+    delay:0.3,
+    duration:0.6,
+     y:-30
+});
+gsap.to('.three--link',{
+    opacity:1, 
+    delay:0.5,
+    duration:0.6,
+     y:-30
+});
+
+
+
+
+//------------------ HEADER
 gsap.to('.header--content__img--img',{
     opacity:1, 
     duration:0.5,
@@ -5,6 +29,10 @@ gsap.to('.header--content__img--img',{
      y:-50
 });
 
+
+
+
+//------------------- HOW
 gsap.to('.num1',{
     opacity:1, 
     duration:0.3,
@@ -44,24 +72,6 @@ gsap.to('.num6',{
     scrollTrigger: '.num6',
      y:-210
 });
-gsap.to('.one--link',{
-    opacity:1, 
-    delay:0.1,
-    duration:0.6,
-     y:-30
-});
-gsap.to('.two--link',{
-    opacity:1, 
-    delay:0.3,
-    duration:0.6,
-     y:-30
-});
-gsap.to('.three--link',{
-    opacity:1, 
-    delay:0.5,
-    duration:0.6,
-     y:-30
-});
 gsap.to('.ds--1',{
     opacity:1, 
     delay:0.8,
@@ -88,54 +98,23 @@ gsap.to('.ds--4',{
     delay:0.5,
     duration:0.5,
     scrollTrigger: '.ds--4',
-     y:-111
+     y:-165
 });
 gsap.to('.ds--5',{
     opacity:1, 
     delay:0.8,
     duration:0.5,
     scrollTrigger: '.ds--5',
-     y:-111
+     y:-165
 });
-gsap.to('.kadabra--2',{
-    opacity:1, 
-    delay:0.9,
-    duration:0.8,
-    scrollTrigger: '.kadabra--2',
-    y:-50
-     
-});
-gsap.to('.kadabra--3',{
-    opacity:1, 
-    delay:0.9,
-    duration:0.8,
-    scrollTrigger: '.kadabra--3',
-    y:-50
-     
-});
-gsap.to('.up1',{
-    opacity:1, 
-    delay:0.5,
-    duration:1,
-    scrollTrigger: '.up1',
-    y:-50
-     
-});
-gsap.to('.up2',{
-    opacity:1, 
-    delay:0.5,
-    duration:1,
-    scrollTrigger: '.up2',
-    y:-50
-    
-});
-gsap.to('.up3',{
-    opacity:1, 
-    delay:0.5,
-    duration:1,
-    scrollTrigger: '.up3',
-    y:-50 
-});
+
+
+
+
+
+
+
+//------------------- FOOTER
 gsap.to('.fa-instagram',{
     opacity:1, 
     delay:0.4,
@@ -175,6 +154,17 @@ gsap.to('.form--2',{
     duration:0.4,
     y:-50
 });
+
+
+
+
+
+
+
+
+
+
+//---------------------------- OTHER
 gsap.to('.price--container-one',{
     opacity:1,
     delay: 0.9,

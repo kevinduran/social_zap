@@ -549,8 +549,8 @@ header{
                     text-align: center;
                 }
                 .up1, .up2, .up3{
-                    top: 50px; 
-                    opacity: 0;
+                    top: 0px; 
+                    opacity: 1;
                 }
             }
         }
@@ -595,15 +595,15 @@ header{
                 }
                 .kadabra--2{
                     position: relative;
-                    top:50px;
-                    opacity: 0;
+                    top:0px;
+                    opacity: 1;
                 }
                 h2{
                     margin: 0 auto;
                     font-size: 2.9em;
                     padding-bottom: 25px;
                     position: relative;
-                    top: 132px;
+                    top: 182px;
                     
                 }
                 p{
@@ -725,15 +725,15 @@ header{
                 } 
                 .kadabra--3{
                     position: relative;
-                    top: 50px;
-                    opacity: 0;
+                    top: 0px;
+                    opacity: 1;
                 }
                 h2{
                     margin: 0 auto;
                     font-size: 2.6em;
                     padding-bottom: 25px;
                     position: relative;
-                    top:125px;
+                    top:180px;
                 }
                 p{
                     margin: 0 auto;
@@ -1740,6 +1740,7 @@ header{
     }
     .video .product__container .product__container--text .product__container--text--second h2 {
         font-size: 4em;
+        
     }
     .video .product__container .product__container--text .product__container--text--second {
         height: 69%;
@@ -1943,6 +1944,14 @@ header{
     
     .video .product__container .product__container--product {
         max-height: 200px;
+    }
+    .video .product__container .product__container--text .product__container--text--second h2 {
+        font-size: 2.5em;
+        top: 185px;
+    }
+    .video .video__container .video__container--text .video__container--text--second h2 {
+        font-size: 2.7em;
+        top: 180px;
     }
     .footer {
         margin: 6em 0;

@@ -105,7 +105,7 @@ gsap.to('.ds--5',{
     delay:0.8,
     duration:0.5,
     scrollTrigger: '.ds--5',
-     y:-165
+     y:-170
 });
 
 

@@ -101,9 +101,9 @@ header{
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column; 
-        opacity: 1;
-        ul a li{
+        flex-direction: column;
+         
+        .dlink-active{
             display: block;
             position: relative;
             

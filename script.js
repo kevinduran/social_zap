@@ -247,7 +247,17 @@ gsap.to('.up4',{
 
 var burger = document.querySelector('.burger');
 var dropdown = document.querySelector('.dropdown-nav');
+var dlink = document.querySelectorAll('.dlink')
+// var dlinkone = document.querySelector('.dlink1');
+// var dlinktwo = document.querySelector('.dlink2');
+// var dlinkthree = document.querySelector('.dlink3');
 burger.addEventListener('click',()=>{
     burger.classList.toggle('burger-active');
     dropdown.classList.toggle('dropdown-active'); 
+    // dlinkone.classList.toggle('dlink-active')
+    // dlinktwo.classList.toggle('dlink-active')
+    // dlinkthree.classList.toggle('dlink-active')
+    dlink.forEach(function(link){
+        link.classList.toggle('dlink-active');
+    });
 })

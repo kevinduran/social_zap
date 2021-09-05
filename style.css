@@ -125,10 +125,9 @@ header .dropdown-active {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  opacity: 1;
 }
 
-header .dropdown-active ul a li {
+header .dropdown-active .dlink-active {
   display: block;
   position: relative;
 }

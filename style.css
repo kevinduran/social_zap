@@ -125,10 +125,10 @@ header .dropdown-active {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  opacity: 1;
 }
 
 header .dropdown-active ul a li {
-  opacity: 1;
   display: block;
   position: relative;
 }

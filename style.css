@@ -14,7 +14,7 @@ body {
   font-size: 2.5em !important;
 }
 
-@-webkit-keyframes fadeInRight {
+@-webkit-keyframes fadeInRigh {
   0% {
     opacity: 0;
     top: -20%;
@@ -25,7 +25,7 @@ body {
   }
 }
 
-@keyframes fadeInRight {
+@keyframes fadeInRigh {
   0% {
     opacity: 0;
     top: -20%;
@@ -130,27 +130,6 @@ header .dropdown-active {
 header .dropdown-active ul a li {
   display: block;
   position: relative;
-}
-
-header .dropdown-active .dlink1 {
-  -webkit-animation: fadeInRight 0.5s ease forwards;
-  animation: fadeInRight 0.5s ease forwards;
-  -webkit-animation-delay: 0.4s;
-  animation-delay: 0.4s;
-}
-
-header .dropdown-active .dlink2 {
-  -webkit-animation: fadeInRight 0.5s ease forwards;
-  animation: fadeInRight 0.5s ease forwards;
-  -webkit-animation-delay: 0.7s;
-  animation-delay: 0.7s;
-}
-
-header .dropdown-active .dlink3 {
-  -webkit-animation: fadeInRight 0.5s ease forwards;
-  animation: fadeInRight 0.5s ease forwards;
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s;
 }
 
 header .header--nav {

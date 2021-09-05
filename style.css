@@ -55,7 +55,10 @@ body {
 }
 
 .testOpen {
-  opacity: 1 !important;
+  -webkit-animation: fadeInRight 0.5s ease forwards !important;
+  animation: fadeInRight 0.5s ease forwards !important;
+  -webkit-animation-delay: 0.4s !important;
+  animation-delay: 0.4s !important;
   border: 1px solid green !important;
 }
 

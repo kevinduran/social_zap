@@ -1901,6 +1901,9 @@ header{
 
 
  @media (max-width: 500px) { 
+    header .dropdown-nav ul {
+        top: 1em;
+    }
     .how .how--container .how--conatiner__unit .num--container .num {
         font-size: 14em;
         top: 280px;
@@ -1937,9 +1940,6 @@ header{
     .footer .footer__right .footer__right--container .footer__right--container--sub2 a {
         position: relative;
         right: 15px;
-    }
-    header .dropdown-nav ul {
-        top: -69px;
     }
     
     .video .product__container .product__container--product {

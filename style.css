@@ -14,7 +14,7 @@ body {
   font-size: 2.5em !important;
 }
 
-@-webkit-keyframes fadeInRigh {
+@-webkit-keyframes fadeInRight {
   0% {
     opacity: 0;
     top: -20%;
@@ -25,7 +25,7 @@ body {
   }
 }
 
-@keyframes fadeInRigh {
+@keyframes fadeInRight {
   0% {
     opacity: 0;
     top: -20%;
@@ -130,6 +130,27 @@ header .dropdown-active {
 header .dropdown-active ul a li {
   display: block;
   position: relative;
+}
+
+header .dropdown-active .dlink1 {
+  -webkit-animation: fadeInRight 0.5s ease forwards;
+  animation: fadeInRight 0.5s ease forwards;
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+
+header .dropdown-active .dlink2 {
+  -webkit-animation: fadeInRight 0.5s ease forwards;
+  animation: fadeInRight 0.5s ease forwards;
+  -webkit-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+}
+
+header .dropdown-active .dlink3 {
+  -webkit-animation: fadeInRight 0.5s ease forwards;
+  animation: fadeInRight 0.5s ease forwards;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
 }
 
 header .header--nav {
@@ -2289,6 +2310,9 @@ header .header--content .header--content__desc .header--content__button--contain
 }
 
 @media (max-width: 500px) {
+  header .dropdown-nav ul {
+    top: 1em;
+  }
   .how .how--container .how--conatiner__unit .num--container .num {
     font-size: 14em;
     top: 280px;
@@ -2325,9 +2349,6 @@ header .header--content .header--content__desc .header--content__button--contain
   .footer .footer__right .footer__right--container .footer__right--container--sub2 a {
     position: relative;
     right: 15px;
-  }
-  header .dropdown-nav ul {
-    top: -69px;
   }
   .video .product__container .product__container--product {
     max-height: 200px;

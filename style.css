@@ -59,7 +59,7 @@ body {
   animation: fadeInRight 0.5s ease forwards !important;
   -webkit-animation-delay: 0.4s !important;
   animation-delay: 0.4s !important;
-  border: 1px solid green !important;
+  border: 1px solid violet !important;
 }
 
 header {

@@ -71,7 +71,6 @@ header{
             a{
                 text-decoration: none;
                 color: #e0e1ef;
-               
                 li{
                     display:none;
                     opacity: 0;
@@ -103,40 +102,14 @@ header{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        -webkit-animation: fadeInRight 0.5s ease forwards;
-        animation: fadeInRight 0.5s ease forwards;
-        -webkit-animation-delay: 0.4s;
-        animation-delay: 0.4s;
-        ul{
-            width: 89%;
-            text-align: center;
+        display: block;
             position: relative;
-            left: -25px;
-           
-            a{
-                text-decoration: none;
-                color: #e0e1ef;
-               
-                li{
-                    display:block;
-                    font-size: 3em;
-                    letter-spacing:0.4em;
-                    padding: 35px 0;
-                    margin: 10px 0;
-                    font-family: $main-font;
-                    width: 100%;
-                    transition: 0.5s ease all;
-                  
-                    
-                    &:hover{
-                        transition: 0.3s ease all;
-                        background-color: #5ea9dd80;
-                        border: 5px solid $secondary-color;
-                    }
-                }
-            }  
+         
+        ul a li{
+            display: block;
+            position: relative;
+            
         }
-        
         .dlink1{
             -webkit-animation: fadeInRight 0.5s ease forwards;
             animation: fadeInRight 0.5s ease forwards;

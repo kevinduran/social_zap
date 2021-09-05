@@ -125,41 +125,13 @@ header .dropdown-active {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-animation: fadeInRight 0.5s ease forwards;
-  animation: fadeInRight 0.5s ease forwards;
-  -webkit-animation-delay: 0.4s;
-  animation-delay: 0.4s;
-}
-
-header .dropdown-active ul {
-  width: 89%;
-  text-align: center;
+  display: block;
   position: relative;
-  left: -25px;
-}
-
-header .dropdown-active ul a {
-  text-decoration: none;
-  color: #e0e1ef;
 }
 
 header .dropdown-active ul a li {
   display: block;
-  font-size: 3em;
-  letter-spacing: 0.4em;
-  padding: 35px 0;
-  margin: 10px 0;
-  font-family: "Krub", sans-serif;
-  width: 100%;
-  -webkit-transition: 0.5s ease all;
-  transition: 0.5s ease all;
-}
-
-header .dropdown-active ul a li:hover {
-  -webkit-transition: 0.3s ease all;
-  transition: 0.3s ease all;
-  background-color: #5ea9dd80;
-  border: 5px solid #5ea9dd;
+  position: relative;
 }
 
 header .dropdown-active .dlink1 {

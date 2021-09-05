@@ -88,7 +88,6 @@ header .dropdown-nav ul a {
 
 header .dropdown-nav ul a li {
   display: none;
-  opacity: 0;
   font-size: 3em;
   letter-spacing: 0.4em;
   padding: 35px 0;
@@ -130,8 +129,6 @@ header .dropdown-active {
 header .dropdown-active .dlink-active {
   display: block;
   position: relative;
-  -webkit-animation: fadeIn 0.5s ease forwards;
-  animation: fadeIn 0.5s ease forwards;
 }
 
 header .dropdown-active .dlink1 {

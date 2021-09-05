@@ -73,7 +73,6 @@ header{
                 color: #e0e1ef;
                 li{
                     display:none;
-                    opacity: 0;
                     font-size: 3em;
                     letter-spacing:0.4em;
                     padding: 35px 0;
@@ -105,12 +104,7 @@ header{
          
         .dlink-active{
             display: block;
-            position: relative;
-            -webkit-animation: fadeIn 0.5s ease forwards;
-            animation: fadeIn 0.5s ease forwards;
-       
-        
-            
+            position: relative;  
         }
         .dlink1{
             -webkit-animation: fadeInRight 0.5s ease forwards;

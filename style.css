@@ -86,8 +86,11 @@ header .dropdown-nav ul a {
   color: #e0e1ef;
 }
 
-header .dropdown-nav ul a li {
+header .dropdown-nav ul a .dlink {
   display: none;
+}
+
+header .dropdown-nav ul a li {
   opacity: 0;
   font-size: 3em;
   letter-spacing: 0.4em;
@@ -127,7 +130,7 @@ header .dropdown-active {
           flex-direction: column;
 }
 
-header .dropdown-active ul a .dlink-active {
+header .dropdown-active .dlink-active {
   display: block;
   position: relative;
 }

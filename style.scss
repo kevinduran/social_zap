@@ -71,8 +71,10 @@ header{
             a{
                 text-decoration: none;
                 color: #e0e1ef;
+                .dlink{
+                    display: none;
+                }
                 li{
-                    display:none;
                     opacity: 0;
                     font-size: 3em;
                     letter-spacing:0.4em;
@@ -93,6 +95,7 @@ header{
         }
         
     }
+    
     .dropdown-active{
         transition: 0.7s ease all;
         height: 100%;
@@ -102,12 +105,12 @@ header{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-     
-        ul a .dlink-active{
+        .dlink-active{
             display: block;
             position: relative;
             
         }
+       
         .dlink1{
             -webkit-animation: fadeInRight 0.5s ease forwards;
             animation: fadeInRight 0.5s ease forwards;

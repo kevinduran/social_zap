@@ -106,13 +106,6 @@ header .dropdown-nav ul a li:hover {
   border: 5px solid #5ea9dd;
 }
 
-header .dlink1-active {
-  -webkit-animation: fadeInRight 0.5s ease forwards;
-  animation: fadeInRight 0.5s ease forwards;
-  -webkit-animation-delay: 0.4s;
-  animation-delay: 0.4s;
-}
-
 header .dropdown-active {
   -webkit-transition: 0.7s ease all;
   transition: 0.7s ease all;
@@ -144,6 +137,8 @@ header .dropdown-active .dlink1-active {
   animation: fadeInRight 0.5s ease forwards;
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
+  border: 1px solid blue;
+  display: block;
 }
 
 header .dropdown-active .dlink2-active {

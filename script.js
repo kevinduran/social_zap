@@ -74,21 +74,21 @@ gsap.to('.num6',{
 });
 gsap.to('.ds--1',{
     opacity:1, 
-    delay:0.8,
+    delay:0.5,
     duration:0.5,
     scrollTrigger: '.ds--1',
      y:-51
 });
 gsap.to('.ds--2',{
     opacity:1, 
-    delay:0.8,
+    delay:0.5,
     duration:0.5,
     scrollTrigger: '.ds--2',
      y:-51
 });
 gsap.to('.ds--3',{
     opacity:1, 
-    delay:0.8,
+    delay:0.5,
     duration:0.5,
     scrollTrigger: '.ds--3',
      y:-51
@@ -102,7 +102,7 @@ gsap.to('.ds--4',{
 });
 gsap.to('.ds--5',{
     opacity:1, 
-    delay:0.8,
+    delay:0.5,
     duration:0.5,
     scrollTrigger: '.ds--5',
      y:-170

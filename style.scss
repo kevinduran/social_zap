@@ -74,7 +74,6 @@ header{
     
                 li{
                     display: none;
-                    opacity: 0;
                     font-size: 3em;
                     letter-spacing:0.4em;
                     padding: 35px 0;
@@ -109,7 +108,6 @@ header{
          .dlink1-active{
             display: block;
             border:1px solid blue;
-            opacity: 1;
             -webkit-animation: fadeInRight 0.5s ease forwards;
             animation: fadeInRight 0.5s ease forwards;
             -webkit-animation-delay: 0.4s;

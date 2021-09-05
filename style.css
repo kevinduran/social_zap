@@ -54,6 +54,10 @@ body {
   }
 }
 
+.testOpen {
+  display: block !important;
+}
+
 header {
   height: -webkit-fit-content;
   height: -moz-fit-content;

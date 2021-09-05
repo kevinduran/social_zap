@@ -247,11 +247,9 @@ gsap.to('.up4',{
 
 var burger = document.querySelector('.burger');
 var dropdown = document.querySelector('.dropdown-nav');
-var test = document.querySelector('.test')
 
 burger.addEventListener('click',()=>{
     burger.classList.toggle('burger-active');
     dropdown.classList.toggle('dropdown-active'); 
-    test.classList.toggle('testOpen')
 
 })

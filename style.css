@@ -54,12 +54,6 @@ body {
   }
 }
 
-.testOpen {
-  -webkit-animation: fadeInRight 0.5s ease forwards !important;
-  animation: fadeInRight 0.5s ease forwards !important;
-  border: 1px solid khaki !important;
-}
-
 header {
   height: -webkit-fit-content;
   height: -moz-fit-content;

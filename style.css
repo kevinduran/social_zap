@@ -130,6 +130,7 @@ header .dropdown-active {
 header .dropdown-active .dlink1-active {
   display: block;
   border: 1px solid blue;
+  opacity: 1;
   -webkit-animation: fadeInRight 0.5s ease forwards;
   animation: fadeInRight 0.5s ease forwards;
   -webkit-animation-delay: 0.4s;

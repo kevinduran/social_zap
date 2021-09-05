@@ -127,6 +127,10 @@ header .dropdown-active {
           flex-direction: column;
 }
 
+header .dropdown-active li {
+  opacity: 1;
+}
+
 header .dropdown-active ul a .dlink1-active {
   display: block;
   -webkit-animation: fadeInRight 0.5s ease forwards;

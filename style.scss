@@ -104,7 +104,9 @@ header{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-       
+        li{
+            opacity: 1;
+        }
        
         ul a .dlink1-active{
             display: block;

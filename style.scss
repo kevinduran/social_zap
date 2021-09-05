@@ -106,7 +106,11 @@ header{
         .dlink-active{
             display: block;
             position: relative;
-            opacity:1;
+            -webkit-animation: fadeInRight 0.5s ease forwards;
+            animation: fadeInRight 0.5s ease forwards;
+            -webkit-animation-delay: 0.4s;
+            animation-delay: 0.4s;
+        
             
         }
         .dlink1{

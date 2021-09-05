@@ -130,10 +130,8 @@ header .dropdown-active {
 header .dropdown-active .dlink-active {
   display: block;
   position: relative;
-  -webkit-animation: fadeInRight 0.5s ease forwards;
-  animation: fadeInRight 0.5s ease forwards;
-  -webkit-animation-delay: 0.4s;
-  animation-delay: 0.4s;
+  -webkit-animation: fadeIn 0.5s ease forwards;
+  animation: fadeIn 0.5s ease forwards;
 }
 
 header .dropdown-active .dlink1 {

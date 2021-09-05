@@ -94,6 +94,12 @@ header{
         }
         
     }
+    .dlink1-active{
+        -webkit-animation: fadeInRight 0.5s ease forwards;
+        animation: fadeInRight 0.5s ease forwards;
+        -webkit-animation-delay: 0.4s;
+        animation-delay: 0.4s;
+    }
     .dropdown-active{
         transition: 0.7s ease all;
         height: 100%;
@@ -115,14 +121,12 @@ header{
             animation: fadeInRight 0.5s ease forwards;
             -webkit-animation-delay: 0.4s;
             animation-delay: 0.4s;
-            border: 1px solid blue;
         }
         .dlink2-active{
             -webkit-animation: fadeInRight 0.5s ease forwards;
             animation: fadeInRight 0.5s ease forwards;
             -webkit-animation-delay: 0.7s;
             animation-delay: 0.7s;
-            border: 1px solid blue;
 
         }
         .dlink3-active{
@@ -130,8 +134,6 @@ header{
             animation: fadeInRight 0.5s ease forwards;
             -webkit-animation-delay: 1s;
             animation-delay: 1s;
-            border: 1px solid blue;
-
         }
     }
     .header--nav {

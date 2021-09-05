@@ -104,18 +104,17 @@ header{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        li{
-            opacity: 1;
-        }
+        
        
-        ul a .dlink1-active{
+         .dlink1-active{
             display: block;
+            border:1px solid blue;
             -webkit-animation: fadeInRight 0.5s ease forwards;
             animation: fadeInRight 0.5s ease forwards;
             -webkit-animation-delay: 0.4s;
             animation-delay: 0.4s;
         }
-        ul a .dlink2-active{
+         .dlink2-active{
             display: block;
             -webkit-animation: fadeInRight 0.5s ease forwards;
             animation: fadeInRight 0.5s ease forwards;
@@ -123,7 +122,7 @@ header{
             animation-delay: 0.7s;
 
         }
-        ul a .dlink3-active{
+         .dlink3-active{
             display: block;
             -webkit-animation: fadeInRight 0.5s ease forwards;
             animation: fadeInRight 0.5s ease forwards;

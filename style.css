@@ -127,19 +127,16 @@ header .dropdown-active {
           flex-direction: column;
 }
 
-header .dropdown-active li {
-  opacity: 1;
-}
-
-header .dropdown-active ul a .dlink1-active {
+header .dropdown-active .dlink1-active {
   display: block;
+  border: 1px solid blue;
   -webkit-animation: fadeInRight 0.5s ease forwards;
   animation: fadeInRight 0.5s ease forwards;
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
 }
 
-header .dropdown-active ul a .dlink2-active {
+header .dropdown-active .dlink2-active {
   display: block;
   -webkit-animation: fadeInRight 0.5s ease forwards;
   animation: fadeInRight 0.5s ease forwards;
@@ -147,7 +144,7 @@ header .dropdown-active ul a .dlink2-active {
   animation-delay: 0.7s;
 }
 
-header .dropdown-active ul a .dlink3-active {
+header .dropdown-active .dlink3-active {
   display: block;
   -webkit-animation: fadeInRight 0.5s ease forwards;
   animation: fadeInRight 0.5s ease forwards;

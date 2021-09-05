@@ -86,11 +86,8 @@ header .dropdown-nav ul a {
   color: #e0e1ef;
 }
 
-header .dropdown-nav ul a .dlink {
-  display: none;
-}
-
 header .dropdown-nav ul a li {
+  display: none;
   opacity: 0;
   font-size: 3em;
   letter-spacing: 0.4em;
@@ -130,26 +127,26 @@ header .dropdown-active {
           flex-direction: column;
 }
 
-header .dropdown-active .dlink-active {
+header .dropdown-active ul a li {
   display: block;
   position: relative;
 }
 
-header .dropdown-active .dlink1 {
+header .dropdown-active .dlink1-active {
   -webkit-animation: fadeInRight 0.5s ease forwards;
   animation: fadeInRight 0.5s ease forwards;
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
 }
 
-header .dropdown-active .dlink2 {
+header .dropdown-active .dlink2-active {
   -webkit-animation: fadeInRight 0.5s ease forwards;
   animation: fadeInRight 0.5s ease forwards;
   -webkit-animation-delay: 0.7s;
   animation-delay: 0.7s;
 }
 
-header .dropdown-active .dlink3 {
+header .dropdown-active .dlink3-active {
   -webkit-animation: fadeInRight 0.5s ease forwards;
   animation: fadeInRight 0.5s ease forwards;
   -webkit-animation-delay: 1s;

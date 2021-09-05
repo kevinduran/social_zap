@@ -247,13 +247,15 @@ gsap.to('.up4',{
 
 var burger = document.querySelector('.burger');
 var dropdown = document.querySelector('.dropdown-nav');
-var dlink = document.querySelectorAll('.dlink')
+var dlink1 = document.querySelector('.dlink1')
+var dlink2 = document.querySelector('.dlink2')
+var dlink3 = document.querySelector('.dlink3')
 
 burger.addEventListener('click',()=>{
     burger.classList.toggle('burger-active');
     dropdown.classList.toggle('dropdown-active'); 
+    dlink1.classList.toggle('dlink1-active');
+    dlink2.classList.toggle('dlink2-active');
+    dlink3.classList.toggle('dlink3-active');
 
-    dlink.forEach(function(link){
-        link.classList.toggle('dlink-active');
-    });
 })

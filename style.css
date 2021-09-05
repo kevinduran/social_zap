@@ -130,6 +130,7 @@ header .dropdown-active {
 header .dropdown-active .dlink-active {
   display: block;
   position: relative;
+  opacity: 1;
 }
 
 header .dropdown-active .dlink1 {

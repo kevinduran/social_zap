@@ -247,10 +247,13 @@ gsap.to('.up4',{
 
 var burger = document.querySelector('.burger');
 var dropdown = document.querySelector('.dropdown-nav');
+var dlink = document.querySelectorAll('.dlink')
 
 burger.addEventListener('click',()=>{
     burger.classList.toggle('burger-active');
     dropdown.classList.toggle('dropdown-active'); 
 
-
+    dlink.forEach(function(link){
+        link.classList.toggle('dlink-active');
+    });
 })

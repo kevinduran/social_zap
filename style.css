@@ -127,7 +127,7 @@ header .dropdown-active {
           flex-direction: column;
 }
 
-header .dropdown-active ul a .dlink {
+header .dropdown-active ul a .dlink-active {
   display: block;
   position: relative;
 }

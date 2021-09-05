@@ -71,9 +71,9 @@ header{
             a{
                 text-decoration: none;
                 color: #e0e1ef;
-                
+    
                 li{
-                    display:none;
+                    display: none;
                     opacity: 0;
                     font-size: 3em;
                     letter-spacing:0.4em;
@@ -104,28 +104,24 @@ header{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        -webkit-animation: fadeInRight 0.5s ease forwards;
-        animation: fadeInRight 0.5s ease forwards;
-        -webkit-animation-delay: 0.4s;
-        animation-delay: 0.4s;
+       
         ul a li {
             display: block;
         }
-        .dlink1{
+        .dlink1-active{
             -webkit-animation: fadeInRight 0.5s ease forwards;
             animation: fadeInRight 0.5s ease forwards;
             -webkit-animation-delay: 0.4s;
             animation-delay: 0.4s;
-            
         }
-        .dlink2{
+        .dlink2-active{
             -webkit-animation: fadeInRight 0.5s ease forwards;
             animation: fadeInRight 0.5s ease forwards;
             -webkit-animation-delay: 0.7s;
             animation-delay: 0.7s;
 
         }
-        .dlink3{
+        .dlink3-active{
             -webkit-animation: fadeInRight 0.5s ease forwards;
             animation: fadeInRight 0.5s ease forwards;
             -webkit-animation-delay: 1s;

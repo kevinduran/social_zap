@@ -1955,8 +1955,10 @@ header{
     }
     .form {
         height: 90vh;
-        padding: 0;     
+        padding: 0;
+        margin: 90px 0 0;     
     }
+    
     .form--2 {
         height: 110vh !important;
     }
@@ -2003,6 +2005,6 @@ header{
         font-size: 3.3em;
     }
     .form--2 {
-        height: 120vh !important;
+        height: 130vh !important;
     }
 }

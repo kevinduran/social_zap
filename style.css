@@ -2173,7 +2173,7 @@ header .header--content .header--content__desc .header--content__button--contain
     width: 45%;
   }
   .form--2 {
-    height: 90vh !important;
+    height: 100vh !important;
   }
   .form .form__container {
     -webkit-box-align: unset;
@@ -2224,7 +2224,7 @@ header .header--content .header--content__desc .header--content__button--contain
     transition: 0.5s ease all;
   }
   .form--2 {
-    height: 95vh !important;
+    height: 101vh !important;
   }
 }
 
@@ -2404,7 +2404,10 @@ header .header--content .header--content__desc .header--content__button--contain
     font-size: 3.3em;
   }
   .form--2 {
-    height: 130vh !important;
+    height: 110vh !important;
+  }
+  .form .form__container .column .form__container--form--second input {
+    margin: 10px 0;
   }
 }
 /*# sourceMappingURL=style.css.map */

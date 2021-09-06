@@ -1197,7 +1197,7 @@ body .form--3 {
   position: relative;
   margin: 15px 0;
   max-width: 44%;
-  height: 55px;
+  height: 65px;
   width: 75%;
 }
 
@@ -2205,6 +2205,12 @@ body .form--3 {
     width: 70%;
     margin: 0 auto;
   }
+  .price .price--container .price--container-top h1 {
+    font-size: 2.5em;
+  }
+  .price .price--container .draw-border {
+    font-size: 1em;
+  }
   .footer {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2221,6 +2227,18 @@ body .form--3 {
     -ms-flex-pack: distribute;
         justify-content: space-around;
     margin-top: 5em;
+  }
+}
+
+@media (max-width: 850px) {
+  .price {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .price .price__free {
+    margin: 1em 0;
   }
 }
 

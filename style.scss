@@ -46,6 +46,8 @@ body{
       opacity: 1;
     }
   }
+  
+  
 
 // ---------------------------- HEADER -------------------------------//
 
@@ -109,22 +111,22 @@ header{
             display: block; 
         }
         .dlink1{
-            -webkit-animation: fadeInRight 0.5s ease forwards;
-            animation: fadeInRight 0.5s ease forwards;
+            -webkit-animation: fadeIn 0.5s ease forwards;
+            animation: fadeIn 0.5s ease forwards;
             -webkit-animation-delay: 0.4s;
             animation-delay: 0.4s;
             
         }
         .dlink2{
-            -webkit-animation: fadeInRight 0.5s ease forwards;
-            animation: fadeInRight 0.5s ease forwards;
+            -webkit-animation: fadeIn 0.5s ease forwards;
+            animation: fadeIn 0.5s ease forwards;
             -webkit-animation-delay: 0.7s;
             animation-delay: 0.7s;
 
         }
         .dlink3{
-            -webkit-animation: fadeInRight 0.5s ease forwards;
-            animation: fadeInRight 0.5s ease forwards;
+            -webkit-animation: fadeIn 0.5s ease forwards;
+            animation: fadeIn 0.5s ease forwards;
             -webkit-animation-delay: 1s;
             animation-delay: 1s;
         }

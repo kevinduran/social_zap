@@ -831,6 +831,10 @@ header{
     position: relative;
     top: 50px;
 }
+body .form--3{
+    height: 80vh !important;
+    margin-top: 45px !important;
+}
 .form{
     font-family: $main-font;
     background-color: #99c5e8a6;
@@ -1592,7 +1596,9 @@ header{
         max-width: 50%;
         height: 45px;
     }
-  
+    .form .form__container .column {
+        justify-content: center;
+    }
     
  }
  
@@ -1851,6 +1857,10 @@ header{
         
     .form .form__container {
         font-size: 0.8em;
+    }
+    body .form--3 {
+        height: 69vh !important;
+        margin-top: 45px !important;
     }
     .footer .footer__right .footer__right--container{
         display: flex;

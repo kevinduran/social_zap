@@ -1589,9 +1589,10 @@ header{
         height: 40px;       
     }
     .form .form__container .column .form__container--form--second .draw-border {
-        max-width: 35%;
+        max-width: 50%;
         height: 45px;
     }
+  
     
  }
  
@@ -1814,6 +1815,9 @@ header{
         font-size: 0.8em;
         transition: 0.5s ease all;
     }
+    .form--2 {
+        height: 95vh !important;
+    }
     
    
  }
@@ -1911,6 +1915,10 @@ header{
         height: 40px;
         width:auto;
     }
+    .form .form__container .column .column--second {
+        width: 82%;
+        margin: 0 auto;
+    }
    
     .footer .footer__left .footer__left--container h2 {
         font-size: 4.5em;
@@ -1946,7 +1954,11 @@ header{
         font-size: 0.8em;
     }
     .form {
-        height: 90vh;     
+        height: 90vh;
+        padding: 0;     
+    }
+    .form--2 {
+        height: 110vh !important;
     }
     .footer .footer__right .footer__right--container .footer__right--container--sub1 {
         margin-right: 0px;
@@ -1974,7 +1986,10 @@ header{
     .footer {
         margin: 6em 0;
     }
- 
+    .form .form__container .column .column--second .register--h2 {
+        font-size: 2.5em;
+    }
+  
 
 }
 @media (max-width: 400px) { 
@@ -1986,5 +2001,8 @@ header{
     }
     .footer .footer__left .footer__left--container h2 {
         font-size: 3.3em;
+    }
+    .form--2 {
+        height: 120vh !important;
     }
 }

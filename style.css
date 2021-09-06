@@ -2238,7 +2238,7 @@ body .form--3 {
             flex-direction: column;
   }
   .price .price__free {
-    margin: 1em 0;
+    margin: 3em 0;
   }
 }
 
@@ -2358,6 +2358,11 @@ body .form--3 {
   .footer .footer__left .footer__left--container h2 {
     font-size: 4.5em;
   }
+  .price .price--container .draw-border {
+    max-width: 80%;
+    height: 55px;
+    width: 83%;
+  }
 }
 
 @media (max-width: 500px) {
@@ -2422,6 +2427,18 @@ body .form--3 {
   }
   .form .form__container .column .column--second .register--h2 {
     font-size: 2.5em;
+  }
+  .price .price--container .price--container-top h1 {
+    font-size: 2em;
+  }
+  .price .price--container ul {
+    padding: 0 20px;
+    font-size: 0.9em;
+  }
+  .price .price--container .draw-border {
+    max-width: 80%;
+    height: 55px;
+    width: 83%;
   }
 }
 

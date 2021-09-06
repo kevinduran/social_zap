@@ -1582,6 +1582,16 @@ header{
     .footer .footer__left .footer__left--container h2 {
         text-align: center;
     }
+    .form .form__container .column .column--second .register--h2 {
+        font-size: 3.5em;
+    }
+    .form .form__container .column .form__container--form--second input {
+        height: 40px;       
+    }
+    .form .form__container .column .form__container--form--second .draw-border {
+        max-width: 35%;
+        height: 45px;
+    }
     
  }
  
@@ -1763,6 +1773,9 @@ header{
     }
     .video .product__container .product__container--text .product__container--text--second .draw-border {
         width: 45%;
+    }
+    .form--2{
+        height: 90vh !important;
     }
     .form .form__container {
         align-items: unset;

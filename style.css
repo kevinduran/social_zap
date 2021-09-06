@@ -54,15 +54,6 @@ body {
   }
 }
 
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 header {
   height: -webkit-fit-content;
   height: -moz-fit-content;
@@ -141,22 +132,22 @@ header .dropdown-active ul a li {
 }
 
 header .dropdown-active .dlink1 {
-  -webkit-animation: fadeInRight 0.5s ease forwards;
-  animation: fadeInRight 0.5s ease forwards;
+  -webkit-animation: fadeIn 0.5s ease forwards;
+  animation: fadeIn 0.5s ease forwards;
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
 }
 
 header .dropdown-active .dlink2 {
-  -webkit-animation: fadeInRight 0.5s ease forwards;
-  animation: fadeInRight 0.5s ease forwards;
+  -webkit-animation: fadeIn 0.5s ease forwards;
+  animation: fadeIn 0.5s ease forwards;
   -webkit-animation-delay: 0.7s;
   animation-delay: 0.7s;
 }
 
 header .dropdown-active .dlink3 {
-  -webkit-animation: fadeInRight 0.5s ease forwards;
-  animation: fadeInRight 0.5s ease forwards;
+  -webkit-animation: fadeIn 0.5s ease forwards;
+  animation: fadeIn 0.5s ease forwards;
   -webkit-animation-delay: 1s;
   animation-delay: 1s;
 }
@@ -1978,6 +1969,16 @@ header .header--content .header--content__desc .header--content__button--contain
   .footer .footer__left .footer__left--container h2 {
     text-align: center;
   }
+  .form .form__container .column .column--second .register--h2 {
+    font-size: 3.5em;
+  }
+  .form .form__container .column .form__container--form--second input {
+    height: 40px;
+  }
+  .form .form__container .column .form__container--form--second .draw-border {
+    max-width: 35%;
+    height: 45px;
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -2170,6 +2171,9 @@ header .header--content .header--content__desc .header--content__button--contain
   }
   .video .product__container .product__container--text .product__container--text--second .draw-border {
     width: 45%;
+  }
+  .form--2 {
+    height: 90vh !important;
   }
   .form .form__container {
     -webkit-box-align: unset;

@@ -193,7 +193,7 @@ gsap.to('.image--two',{
 gsap.to('.wst__header--title-top',{
     duration:0.69,
     delay:0.69,
-    y:-100
+    y:-130
 });
 gsap.to('.kadabra-two',{
     opacity:1,
@@ -223,7 +223,7 @@ gsap.to('.up-8',{
     delay:0.5,
     duration:0.5,
     scrollTrigger: '.up-8',
-    y:-90
+    y:-120
      
 });
 gsap.to('.wsz-list',{

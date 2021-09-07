@@ -1610,6 +1610,9 @@ body .form--3{
     .form .form__container .column {
         justify-content: center;
     }
+    .wst {
+        padding: 3em 0 0 0;
+    }
     .wst .wst__header {
         flex-direction: column;
     } 
@@ -1618,6 +1621,10 @@ body .form--3{
     }
     .wst .wst__header .wst__header--title .kadabra-two {
         font-size: 0.9em;
+    }
+    .wst .wst__header-two {
+  
+        flex-direction: column-reverse !important;
     }
 
  }
@@ -2078,7 +2085,29 @@ body .form--3{
         flex-direction: column;
     }
   
-
+    .wst .wst__header .wst__header--title p {
+        font-size: 1.5em;
+        margin: 0;
+        width: 100%;
+    }
+    .wst .wst__header .wst__header--title .abra h1 {
+        font-size: 2.5em;
+        top: 120px;
+        margin-left: 0;
+    }
+    .wst .wst__header .wst__header--title {
+        padding-left: 1.9%;
+        padding-bottom: 15%;
+    }
+    .wst .wst__header .wst__header--title .draw-border {
+        max-width: 80%;
+        height: 55px;
+        width: 77%;
+    }
+    .wst .wst__header .wst__header--image {
+        position: relative;
+        top: 50px;
+    }
 }
 @media (max-width: 400px) { 
     .form .form__container .column .column--second h2 {

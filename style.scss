@@ -2115,6 +2115,35 @@ body .form--3{
     .wst .wst__header-two .image--two img {
         width: 80%;
     }
+    .wst .wst__header .wst__header--title .wst__header--title-bottom {
+        margin-top: 15%;
+    }
+    .wst .wtb-up-1 {
+        opacity: 0;
+        position: relative;
+        top: 50px;
+        font-size: 1.3em !important;
+    }
+    .wst .wtb-up-2 {
+        opacity: 0;
+        position: relative;
+        top: 50px;
+        font-size: 1.3em !important;
+    }
+    .wst .wtb__header--three {
+        margin-top: 8%;
+        flex-direction: column !important;
+    }
+    .form {
+        margin: 50px 0 0;
+    }
+    .wst ul {
+        list-style-type: none;
+        font-family: "Krub", sans-serif;
+        font-size: 0.8em;
+        padding-left: 0;
+    }
+
 }
 @media (max-width: 400px) { 
     .form .form__container .column .column--second h2 {

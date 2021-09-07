@@ -2054,6 +2054,9 @@ body .form--3{
         height: fit-content;
         overflow: hidden;
     }
+    .price .price__pro .pro {
+        flex-direction: column;
+    }
   
 
 }

@@ -2463,6 +2463,12 @@ body .form--3 {
     height: fit-content;
     overflow: hidden;
   }
+  .price .price__pro .pro {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 @media (max-width: 400px) {

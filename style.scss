@@ -37,15 +37,15 @@ body{
       top: 0;
     }
   }
-  @keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
+//   @keyframes fadeIn {
+//     0% {
+//       opacity: 0;
+//     }
   
-    100% {
-      opacity: 1;
-    }
-  }
+//     100% {
+//       opacity: 1;
+//     }
+//   }
   
   
 
@@ -111,8 +111,8 @@ header{
             display: block; 
         }
         .dlink1{
-            -webkit-animation: fadeIn 0.5s ease forwards;
-            animation: fadeIn 0.5s ease forwards;
+            -webkit-animation: fadeInDown 0.5s ease forwards;
+            animation: fadeInDown 0.5s ease forwards;
             -webkit-animation-delay: 0.4s;
             animation-delay: 0.4s;
             
@@ -249,9 +249,9 @@ header{
             position: relative;
             top: -69px;
             font-size: 1.1em;
-            transition: 0.5s ease all;
-            -webkit-animation: fadeIn 1s ease forwards;
-            animation: fadeIn 1s ease forwards;
+            // transition: 0.5s ease all;
+            // -webkit-animation: fadeIn 1s ease forwards;
+            // animation: fadeIn 1s ease forwards;
             .header--content__desc--title{
                 text-align: center;
                 font-family: 'Audiowide', cursive; 

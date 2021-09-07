@@ -1821,6 +1821,10 @@ body .form--3{
     .price {
         flex-direction: column;
     }
+    .price .price--container .price--container-bottom {
+        text-align: center;
+        margin: 69px 0;
+    }
     .price .price__free {
         margin: 3em 0;
     }

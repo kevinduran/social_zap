@@ -26,7 +26,7 @@ body{
 }
 
 
-@keyframes fadeInRight {
+@keyframes fadeInDown {
     0% {
       opacity: 0;
       top:-20%;
@@ -111,22 +111,22 @@ header{
             display: block; 
         }
         .dlink1{
-            -webkit-animation: fadeIn 0.5s ease forwards;
-            animation: fadeIn 0.5s ease forwards;
+            -webkit-animation: fadeInDown 0.5s ease forwards;
+            animation: fadeInDown 0.5s ease forwards;
             -webkit-animation-delay: 0.4s;
             animation-delay: 0.4s;
             
         }
         .dlink2{
-            -webkit-animation: fadeIn 0.5s ease forwards;
-            animation: fadeIn 0.5s ease forwards;
+            -webkit-animation: fadeInDown 0.5s ease forwards;
+            animation: fadeInDown 0.5s ease forwards;
             -webkit-animation-delay: 0.7s;
             animation-delay: 0.7s;
 
         }
         .dlink3{
-            -webkit-animation: fadeIn 0.5s ease forwards;
-            animation: fadeIn 0.5s ease forwards;
+            -webkit-animation: fadeInDown 0.5s ease forwards;
+            animation: fadeInDown 0.5s ease forwards;
             -webkit-animation-delay: 1s;
             animation-delay: 1s;
         }

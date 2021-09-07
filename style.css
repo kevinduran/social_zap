@@ -132,22 +132,22 @@ header .dropdown-active ul a li {
 }
 
 header .dropdown-active .dlink1 {
-  -webkit-animation: fadeIn 0.5s ease forwards;
-  animation: fadeIn 0.5s ease forwards;
+  -webkit-animation: fadeInDown 0.5s ease forwards;
+  animation: fadeInDown 0.5s ease forwards;
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
 }
 
 header .dropdown-active .dlink2 {
-  -webkit-animation: fadeIn 0.5s ease forwards;
-  animation: fadeIn 0.5s ease forwards;
+  -webkit-animation: fadeInDown 0.5s ease forwards;
+  animation: fadeInDown 0.5s ease forwards;
   -webkit-animation-delay: 0.7s;
   animation-delay: 0.7s;
 }
 
 header .dropdown-active .dlink3 {
-  -webkit-animation: fadeIn 0.5s ease forwards;
-  animation: fadeIn 0.5s ease forwards;
+  -webkit-animation: fadeInDown 0.5s ease forwards;
+  animation: fadeInDown 0.5s ease forwards;
   -webkit-animation-delay: 1s;
   animation-delay: 1s;
 }

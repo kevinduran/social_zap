@@ -1570,10 +1570,12 @@ body .form--3{
  }
 
 
- @media (max-width: 1400px) { 
+ @media (max-width: 1400px) {
+    
     .wst .wst__header .wst__header--title .abra h1 {
         font-size: 2.5em;
     }
+    
  }
 
 
@@ -1608,6 +1610,9 @@ body .form--3{
     .form .form__container .column {
         justify-content: center;
     }
+    .wst .wst__header {
+        flex-direction: column;
+    } 
     .wst .wst__header .wst__header--title .abra h1 {
         font-size: 2.5em;
     }

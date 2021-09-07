@@ -1995,6 +1995,12 @@ body .form--3 {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .wst .wst__header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   .wst .wst__header .wst__header--title .abra h1 {
     font-size: 2.5em;
   }

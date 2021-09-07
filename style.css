@@ -2447,6 +2447,18 @@ body .form--3 {
   .price {
     margin-top: 1em;
   }
+  .price .price__free {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    overflow: hidden;
+  }
+  .price .price__pro {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    overflow: hidden;
+  }
 }
 
 @media (max-width: 400px) {

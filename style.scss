@@ -2040,7 +2040,16 @@ body .form--3{
     .price {
         margin-top: 1em;
     }
-    
+    .price .price__free {
+      
+        height: fit-content;
+        overflow: hidden;
+    }
+    .price .price__pro {
+      
+        height: fit-content;
+        overflow: hidden;
+    }
   
 
 }

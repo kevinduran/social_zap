@@ -1568,6 +1568,15 @@ body .form--3{
    
     
  }
+
+
+ @media (max-width: 1400px) { 
+    .wst .wst__header .wst__header--title .abra h1 {
+        font-size: 2.5em;
+    }
+ }
+
+
  @media (max-width: 1180px) { 
    
     header .header--content .header--content__desc .header--content__button--container .draw-border {
@@ -1599,7 +1608,13 @@ body .form--3{
     .form .form__container .column {
         justify-content: center;
     }
-    
+    .wst .wst__header .wst__header--title .abra h1 {
+        font-size: 2.5em;
+    }
+    .wst .wst__header .wst__header--title .kadabra-two {
+        font-size: 0.9em;
+    }
+
  }
  
  @media (max-width: 991.98px) { 

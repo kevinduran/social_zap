@@ -2560,6 +2560,20 @@ body .form--3 {
   .wst .wst__header-two .image--two img {
     max-height: 550px;
   }
+  .tos .tos--container h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 2em;
+  }
+  .tos .tos--container {
+    margin: 0 5px;
+    line-height: 2em;
+  }
+  .tos .tos--container h3 {
+    margin-top: 2em;
+    font-size: 0.9em;
+    font-weight: bolder;
+  }
 }
 
 @media (max-width: 400px) {

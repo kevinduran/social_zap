@@ -2557,8 +2557,8 @@ body .form--3 {
     font-size: 0.8em;
     padding-left: 0;
   }
-  .wst .wst__header-two .wst__header--image-two img {
-    max-height: 300px;
+  .wst .wst__header-two .image--two img {
+    max-height: 420px;
   }
 }
 

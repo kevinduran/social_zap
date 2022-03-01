@@ -253,3 +253,6 @@ burger.addEventListener('click',()=>{
     burger.classList.toggle('burger-active');
     dropdown.classList.toggle('dropdown-active'); 
 })
+
+
+console.log('testing...')

@@ -255,4 +255,4 @@ burger.addEventListener('click',()=>{
 })
 
 
-console.log('testing...')
+console.log('hello, friend')
